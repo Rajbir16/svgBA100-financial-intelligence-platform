@@ -1,0 +1,684 @@
+{
+  "info": {
+    "name": "svgBA100 Financial Intelligence Platform API",
+    "_postman_id": "b100-api-collection-v1",
+    "description": "Complete Postman collection for svgBA100 RESTful endpoints.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "[Health] API and database health check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/health",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "health"
+          ]
+        },
+        "description": "Check API status and connectivity to the underlying SQLite database."
+      },
+      "response": []
+    },
+    {
+      "name": "[Health] Database row counts across all primary tables",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/health/counts",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "health",
+            "counts"
+          ]
+        },
+        "description": "Retrieve row counts across all tables in the SQLite database."
+      },
+      "response": []
+    },
+    {
+      "name": "[Companies] List all companies with sector and profile info",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/companies",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "companies"
+          ]
+        },
+        "description": "Retrieve universe companies with metadata, broad sector, and index weights."
+      },
+      "response": []
+    },
+    {
+      "name": "[Companies] Detailed company profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/companies/TCS",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "TCS"
+          ]
+        },
+        "description": "Retrieve full company profile including latest financial ratios and pros/cons."
+      },
+      "response": []
+    },
+    {
+      "name": "[Companies] Historical Profit and Loss statements",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/companies/TCS/pnl",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "TCS",
+            "pnl"
+          ]
+        },
+        "description": "Retrieve historical annual and TTM profit and loss statements."
+      },
+      "response": []
+    },
+    {
+      "name": "[Companies] Historical Balance Sheet statements",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/companies/TCS/balancesheet",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "TCS",
+            "balancesheet"
+          ]
+        },
+        "description": "Retrieve historical balance sheet statements."
+      },
+      "response": []
+    },
+    {
+      "name": "[Companies] Historical Cash Flow statements",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/companies/TCS/cashflow",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "TCS",
+            "cashflow"
+          ]
+        },
+        "description": "Retrieve historical cash flow statements."
+      },
+      "response": []
+    },
+    {
+      "name": "[Companies] Historical Financial Ratios",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/companies/TCS/ratios",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "TCS",
+            "ratios"
+          ]
+        },
+        "description": "Retrieve all historical financial ratio records for the company."
+      },
+      "response": []
+    },
+    {
+      "name": "[Companies] Download company 2-page PDF tear sheet",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/companies/TCS/tearsheet",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "TCS",
+            "tearsheet"
+          ]
+        },
+        "description": "Download the official two-page PDF tear sheet for the specified company."
+      },
+      "response": []
+    },
+    {
+      "name": "[Companies] Company peer comparison and percentile ranks",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/companies/TCS/peers",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "TCS",
+            "peers"
+          ]
+        },
+        "description": "Retrieve peer group and percentiles for the company (alias to /peers/company/{ticker})."
+      },
+      "response": []
+    },
+    {
+      "name": "[Companies] Company valuation history and summary",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/companies/TCS/valuation",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "TCS",
+            "valuation"
+          ]
+        },
+        "description": "Retrieve valuation history and summary for the company (alias to /valuation/{ticker})."
+      },
+      "response": []
+    },
+    {
+      "name": "[Companies] Company annual reports and filings",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/companies/TCS/documents",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "companies",
+            "TCS",
+            "documents"
+          ]
+        },
+        "description": "Retrieve annual report filing links for the company (alias to /documents/{ticker})."
+      },
+      "response": []
+    },
+    {
+      "name": "[Screener] List available screener presets",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/screener/presets",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "screener",
+            "presets"
+          ]
+        },
+        "description": "Retrieve all predefined screener presets from configuration."
+      },
+      "response": []
+    },
+    {
+      "name": "[Screener] Execute screener by preset or custom criteria",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/screener",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "screener"
+          ]
+        },
+        "description": "Filter the 92-company universe using presets or customized metric thresholds."
+      },
+      "response": []
+    },
+    {
+      "name": "[Sectors] List all 10 authoritative broad sectors with summary stats",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/sectors",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "sectors"
+          ]
+        },
+        "description": "Retrieve all authoritative broad sectors with median financial metrics and constituent counts.\n\nNote: The platform database contains exactly 10 authoritative broad sectors in the 'sectors' table,\nwhile industry peer analysis uses 11 peer groups in 'peer_groups'. This endpoint reports broad sectors."
+      },
+      "response": []
+    },
+    {
+      "name": "[Sectors] Detailed sector statistics and constituents",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/sectors/Information%20Technology",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "sectors",
+            "Information%20Technology"
+          ]
+        },
+        "description": "Retrieve detailed KPIs, distributions, and constituent company list for a broad sector."
+      },
+      "response": []
+    },
+    {
+      "name": "[Peers] List all 11 industry peer cohorts with benchmarks",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/peers",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "peers"
+          ]
+        },
+        "description": "Retrieve all 11 industry peer groups with constituent counts and benchmark companies."
+      },
+      "response": []
+    },
+    {
+      "name": "[Peers] Peer group details and constituent percentile ranks",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/peers/IT%20Services",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "peers",
+            "IT%20Services"
+          ]
+        },
+        "description": "Retrieve constituent companies and percentile rankings for a specific peer cohort."
+      },
+      "response": []
+    },
+    {
+      "name": "[Peers] Peer comparison for a specific company",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/peers/company/TCS",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "peers",
+            "company",
+            "TCS"
+          ]
+        },
+        "description": "Retrieve the peer group, peer companies, and percentile ranking for a specific company."
+      },
+      "response": []
+    },
+    {
+      "name": "[Valuation] Universe valuation summary and valuation flags",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/valuation/summary",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "valuation",
+            "summary"
+          ]
+        },
+        "description": "Retrieve universe valuation summary containing P/E, P/B, EV/EBITDA, and sector-relative flags."
+      },
+      "response": []
+    },
+    {
+      "name": "[Valuation] Historical valuation and market cap series for a company",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/valuation/TCS",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "valuation",
+            "TCS"
+          ]
+        },
+        "description": "Retrieve historical market capitalization, P/E, P/B, EV/EBITDA, and dividend yield."
+      },
+      "response": []
+    },
+    {
+      "name": "[Portfolio] Portfolio-wide KPI distribution statistics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/portfolio/stats",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "portfolio",
+            "stats"
+          ]
+        },
+        "description": "Retrieve portfolio percentile distribution statistics (P10, P25, P50, P75, P90, mean, std)."
+      },
+      "response": []
+    },
+    {
+      "name": "[Portfolio] K-Means company archetypes and cluster labels",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/portfolio/clusters",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "portfolio",
+            "clusters"
+          ]
+        },
+        "description": "Retrieve 5-archetype cluster assignments, descriptive provisional names, and centroid distances."
+      },
+      "response": []
+    },
+    {
+      "name": "[Documents] List annual report filings across universe",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/documents",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "documents"
+          ]
+        },
+        "description": "Retrieve annual report filing URLs across universe companies."
+      },
+      "response": []
+    },
+    {
+      "name": "[Documents] Retrieve annual reports for a specific company",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/v1/documents/TCS",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "v1",
+            "documents",
+            "TCS"
+          ]
+        },
+        "description": "Retrieve all official annual report links for a given company ticker."
+      },
+      "response": []
+    },
+    {
+      "name": "[General] Root health and documentation link",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": []
+        },
+        "description": "Root entrypoint linking to interactive documentation."
+      },
+      "response": []
+    }
+  ]
+}

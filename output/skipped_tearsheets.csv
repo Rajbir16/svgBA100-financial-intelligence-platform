@@ -1,0 +1,2 @@
+company_id,company_name,ticker,available_annual_observations,reason
+JIOFIN,Jio Financial Services Ltd,JIOFIN,2,Fewer than 3 annual PnL observations (2 available)

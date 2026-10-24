@@ -1,0 +1,93 @@
+company_id,cluster_id,cluster_name,distance_from_centroid
+ABB,1,Core Quality Compounders (Provisional),0.9152
+ADANIENSOL,1,Core Quality Compounders (Provisional),1.1507
+ADANIENT,1,Core Quality Compounders (Provisional),1.4654
+ADANIGREEN,4,High-Leverage Financials & Utilities (Provisional),2.5177
+ADANIPORTS,0,High-Margin Cash Generators (Provisional),1.3734
+ADANIPOWER,1,Core Quality Compounders (Provisional),1.0885
+AMBUJACEM,1,Core Quality Compounders (Provisional),1.0058
+APOLLOHOSP,1,Core Quality Compounders (Provisional),0.5533
+ASIANPAINT,1,Core Quality Compounders (Provisional),0.3427
+ATGL,1,Core Quality Compounders (Provisional),1.3464
+AXISBANK,4,High-Leverage Financials & Utilities (Provisional),0.9047
+BAJAJ-AUTO,1,Core Quality Compounders (Provisional),0.6062
+BAJAJFINSV,4,High-Leverage Financials & Utilities (Provisional),1.0601
+BAJAJHLDNG,0,High-Margin Cash Generators (Provisional),2.442
+BAJFINANCE,4,High-Leverage Financials & Utilities (Provisional),1.6275
+BANKBARODA,4,High-Leverage Financials & Utilities (Provisional),1.8368
+BEL,2,High Capital Turnover & Scale (Provisional),0.7617
+BHARTIARTL,0,High-Margin Cash Generators (Provisional),1.2842
+BHEL,1,Core Quality Compounders (Provisional),2.4324
+BOSCHLTD,1,Core Quality Compounders (Provisional),0.9572
+BPCL,1,Core Quality Compounders (Provisional),0.5364
+BRITANNIA,1,Core Quality Compounders (Provisional),1.5714
+CANBK,4,High-Leverage Financials & Utilities (Provisional),2.751
+CHOLAFIN,4,High-Leverage Financials & Utilities (Provisional),0.9153
+CIPLA,3,Hyper FCF Outlier (Provisional),0.0
+COALINDIA,0,High-Margin Cash Generators (Provisional),1.1248
+DABUR,1,Core Quality Compounders (Provisional),0.8821
+DIVISLAB,1,Core Quality Compounders (Provisional),0.7314
+DLF,1,Core Quality Compounders (Provisional),2.4497
+DMART,1,Core Quality Compounders (Provisional),1.3283
+DRREDDY,1,Core Quality Compounders (Provisional),1.2447
+EICHERMOT,1,Core Quality Compounders (Provisional),0.5014
+GAIL,1,Core Quality Compounders (Provisional),0.3474
+GODREJCP,1,Core Quality Compounders (Provisional),0.683
+GRASIM,1,Core Quality Compounders (Provisional),0.9495
+HAL,2,High Capital Turnover & Scale (Provisional),0.7617
+HAVELLS,1,Core Quality Compounders (Provisional),0.9274
+HCLTECH,1,Core Quality Compounders (Provisional),0.4381
+HDFCBANK,4,High-Leverage Financials & Utilities (Provisional),0.5874
+HDFCLIFE,0,High-Margin Cash Generators (Provisional),1.3484
+HEROMOTOCO,0,High-Margin Cash Generators (Provisional),1.7089
+HINDALCO,0,High-Margin Cash Generators (Provisional),0.6132
+HINDUNILVR,0,High-Margin Cash Generators (Provisional),0.73
+ICICIBANK,4,High-Leverage Financials & Utilities (Provisional),0.5708
+ICICIGI,0,High-Margin Cash Generators (Provisional),0.7351
+ICICIPRULI,0,High-Margin Cash Generators (Provisional),2.2671
+INDIGO,0,High-Margin Cash Generators (Provisional),2.4124
+INDUSINDBK,4,High-Leverage Financials & Utilities (Provisional),0.6602
+INFY,1,Core Quality Compounders (Provisional),0.3624
+IOC,1,Core Quality Compounders (Provisional),0.5966
+IRCTC,1,Core Quality Compounders (Provisional),1.3205
+IRFC,4,High-Leverage Financials & Utilities (Provisional),1.8188
+ITC,1,Core Quality Compounders (Provisional),0.8771
+JINDALSTEL,1,Core Quality Compounders (Provisional),1.362
+JIOFIN,0,High-Margin Cash Generators (Provisional),0.8363
+JSWENERGY,1,Core Quality Compounders (Provisional),1.3755
+JSWSTEEL,1,Core Quality Compounders (Provisional),0.6456
+KOTAKBANK,0,High-Margin Cash Generators (Provisional),1.3671
+LICI,1,Core Quality Compounders (Provisional),2.0826
+LODHA,1,Core Quality Compounders (Provisional),2.1127
+LT,1,Core Quality Compounders (Provisional),0.9012
+LTIM,1,Core Quality Compounders (Provisional),2.6204
+M&M,1,Core Quality Compounders (Provisional),0.8606
+MARUTI,1,Core Quality Compounders (Provisional),0.3199
+MOTHERSON,1,Core Quality Compounders (Provisional),0.6415
+NAUKRI,1,Core Quality Compounders (Provisional),0.8688
+NESTLEIND,1,Core Quality Compounders (Provisional),0.5654
+NHPC,1,Core Quality Compounders (Provisional),2.014
+NTPC,1,Core Quality Compounders (Provisional),0.4939
+ONGC,1,Core Quality Compounders (Provisional),0.5992
+PFC,4,High-Leverage Financials & Utilities (Provisional),1.2575
+PIDILITIND,1,Core Quality Compounders (Provisional),0.4327
+PNB,4,High-Leverage Financials & Utilities (Provisional),1.3738
+POWERGRID,0,High-Margin Cash Generators (Provisional),1.5162
+RECLTD,4,High-Leverage Financials & Utilities (Provisional),2.019
+RELIANCE,1,Core Quality Compounders (Provisional),0.2476
+SBILIFE,1,Core Quality Compounders (Provisional),2.0043
+SBIN,1,Core Quality Compounders (Provisional),1.4106
+SHREECEM,1,Core Quality Compounders (Provisional),0.2703
+SHRIRAMFIN,4,High-Leverage Financials & Utilities (Provisional),1.3952
+SIEMENS,1,Core Quality Compounders (Provisional),1.3766
+SUNPHARMA,1,Core Quality Compounders (Provisional),1.0756
+TATACONSUM,1,Core Quality Compounders (Provisional),1.7164
+TATAMOTORS,1,Core Quality Compounders (Provisional),0.5775
+TATAPOWER,1,Core Quality Compounders (Provisional),0.8761
+TATASTEEL,1,Core Quality Compounders (Provisional),0.6461
+TCS,1,Core Quality Compounders (Provisional),0.3329
+TECHM,1,Core Quality Compounders (Provisional),0.6087
+TITAN,1,Core Quality Compounders (Provisional),1.5661
+TORNTPHARM,1,Core Quality Compounders (Provisional),0.7543
+TRENT,1,Core Quality Compounders (Provisional),3.4147
+TVSMOTOR,1,Core Quality Compounders (Provisional),0.6579

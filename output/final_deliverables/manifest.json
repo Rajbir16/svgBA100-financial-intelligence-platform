@@ -1,0 +1,262 @@
+[
+  {
+    "deliverable": "nifty100.db",
+    "category": "db",
+    "original_path": "nifty100.db",
+    "archive_path": "output/final_deliverables/db/nifty100.db",
+    "file_size_bytes": 1781760,
+    "sha256": "16c29ba88a7dda64e587a975b94c4bc4ac65688d0ed4591cbf11e900bc469949",
+    "description": "Relational database with 13 tables, strict FKs, and 92 companies",
+    "timestamp": "2026-10-23T23:19:20.050062"
+  },
+  {
+    "deliverable": "cluster_labels.csv",
+    "category": "output",
+    "original_path": "output/cluster_labels.csv",
+    "archive_path": "output/final_deliverables/output/cluster_labels.csv",
+    "file_size_bytes": 5517,
+    "sha256": "99b632cbd1c2236a0e8bc4b743eb2ddb7b34e6c9428b2c5120a3fea55afcb336",
+    "description": "5-archetype K-Means cluster assignments for 92 companies",
+    "timestamp": "2026-10-23T23:19:20.064988"
+  },
+  {
+    "deliverable": "outlier_report.csv",
+    "category": "output",
+    "original_path": "output/outlier_report.csv",
+    "archive_path": "output/final_deliverables/output/outlier_report.csv",
+    "file_size_bytes": 719,
+    "sha256": "a6e471c7c63df7a369547f9d563ceae27a8962e69d057d0058e272a64776b3cd",
+    "description": "Within-sector outlier report (|Z-score| > 3.0)",
+    "timestamp": "2026-10-23T23:19:20.073727"
+  },
+  {
+    "deliverable": "portfolio_stats.csv",
+    "category": "output",
+    "original_path": "output/portfolio_stats.csv",
+    "archive_path": "output/final_deliverables/output/portfolio_stats.csv",
+    "file_size_bytes": 803,
+    "sha256": "56108e3243053645b0ade2a309ec05646b72edcd1688d123ddf9824f12240d1d",
+    "description": "Portfolio KPI distribution stats (P10..P90, mean, std)",
+    "timestamp": "2026-10-23T23:19:20.098337"
+  },
+  {
+    "deliverable": "elbow_plot.png",
+    "category": "reports",
+    "original_path": "reports/elbow_plot.png",
+    "archive_path": "output/final_deliverables/reports/elbow_plot.png",
+    "file_size_bytes": 108915,
+    "sha256": "10fb697a5db9e0214470fb9e2579a40407f39d7157cf4885860d88d4cc6c77d7",
+    "description": "K-Means elbow plot for k=2..10",
+    "timestamp": "2026-10-23T23:19:20.147231"
+  },
+  {
+    "deliverable": "correlation_heatmap.png",
+    "category": "reports",
+    "original_path": "reports/correlation_heatmap.png",
+    "archive_path": "output/final_deliverables/reports/correlation_heatmap.png",
+    "file_size_bytes": 270525,
+    "sha256": "36d9584c567b9b33392fc2f4121fc798a35ca4211163f7185762a9215ecb4c30",
+    "description": "Pearson correlation heatmap of 10 primary KPIs",
+    "timestamp": "2026-10-23T23:19:20.177232"
+  },
+  {
+    "deliverable": "openapi.json",
+    "category": "docs",
+    "original_path": "docs/openapi.json",
+    "archive_path": "output/final_deliverables/docs/openapi.json",
+    "file_size_bytes": 42509,
+    "sha256": "844bdaab53c4969fbb3fb54714fcd04374e36365f3127a2789abbf4fe6b2d835",
+    "description": "OpenAPI 3.0 specification exported from FastAPI app",
+    "timestamp": "2026-10-23T23:19:20.225629"
+  },
+  {
+    "deliverable": "postman_collection.json",
+    "category": "docs",
+    "original_path": "docs/postman_collection.json",
+    "archive_path": "output/final_deliverables/docs/postman_collection.json",
+    "file_size_bytes": 17933,
+    "sha256": "ed51620421a2a9024864f6407e5cc7d2ef5f36e46f096def548266b4e3ac4fb7",
+    "description": "Postman Collection v2.1.0 for RESTful API testing",
+    "timestamp": "2026-10-23T23:19:20.271485"
+  },
+  {
+    "deliverable": "perf_notes.md",
+    "category": "output",
+    "original_path": "output/perf_notes.md",
+    "archive_path": "output/final_deliverables/output/perf_notes.md",
+    "file_size_bytes": 2977,
+    "sha256": "246b753d003ed7af0c804b8741699bebbe66ff10e323f2060ba7709856035c98",
+    "description": "Concurrent screener API and profile latency benchmarks",
+    "timestamp": "2026-10-23T23:19:20.303581"
+  },
+  {
+    "deliverable": "pytest_report.html",
+    "category": "reports",
+    "original_path": "reports/pytest_report.html",
+    "archive_path": "output/final_deliverables/reports/pytest_report.html",
+    "file_size_bytes": 97223,
+    "sha256": "6ce5890d68075cdbabd50cd71849144637737f0db4a986204bf3a919532bc28d",
+    "description": "Self-contained HTML test report for 179 regression tests",
+    "timestamp": "2026-10-23T23:19:20.479650"
+  },
+  {
+    "deliverable": "analyst_guide.pdf",
+    "category": "docs",
+    "original_path": "docs/analyst_guide.pdf",
+    "archive_path": "output/final_deliverables/docs/analyst_guide.pdf",
+    "file_size_bytes": 30678,
+    "sha256": "3e8c2603b8b4b6bf696942c6c5170e7e13fb8081080d2ae381944ec6e5febe75",
+    "description": "11-page publication-grade Analyst Operations Guide",
+    "timestamp": "2026-10-23T23:19:20.511537"
+  },
+  {
+    "deliverable": "portfolio_summary.pdf",
+    "category": "reports",
+    "original_path": "reports/portfolio/portfolio_summary.pdf",
+    "archive_path": "output/final_deliverables/reports/portfolio_summary.pdf",
+    "file_size_bytes": 37374,
+    "sha256": "f6e539173bc25d4b73901c502a8eaae1bc49a4654ef7c01c5bd6c6d69a74c5aa",
+    "description": "17-page portfolio summary PDF covering 92 companies",
+    "timestamp": "2026-10-23T23:19:20.577920"
+  },
+  {
+    "deliverable": "cashflow_intelligence.xlsx",
+    "category": "output",
+    "original_path": "output/cashflow_intelligence.xlsx",
+    "archive_path": "output/final_deliverables/output/cashflow_intelligence.xlsx",
+    "file_size_bytes": 13744,
+    "sha256": "7dd065d9e17cccf5aed271556098b4fec584dda7edde7a691a3cb24f25e73cb7",
+    "description": "Cash-flow intelligence workbook with 8-pattern taxonomy",
+    "timestamp": "2026-10-23T23:19:20.638017"
+  },
+  {
+    "deliverable": "distress_alerts.csv",
+    "category": "output",
+    "original_path": "output/distress_alerts.csv",
+    "archive_path": "output/final_deliverables/output/distress_alerts.csv",
+    "file_size_bytes": 1892,
+    "sha256": "9ed5a76f80c2afdd875f56780ecee4488ced37c4e3e546a39d4924fc5e1bf9cb",
+    "description": "Early warning distress alerts (negative CFO funded by CFF)",
+    "timestamp": "2026-10-23T23:19:20.674758"
+  },
+  {
+    "deliverable": "capital_allocation_distribution.csv",
+    "category": "output",
+    "original_path": "output/capital_allocation_distribution.csv",
+    "archive_path": "output/final_deliverables/output/capital_allocation_distribution.csv",
+    "file_size_bytes": 330,
+    "sha256": "54663860af02c1d3159f63377cc55aee018b3e9d9ce1b8b1c14ce2955716f9f8",
+    "description": "Distribution of companies across 8 capital allocation patterns",
+    "timestamp": "2026-10-23T23:19:20.710160"
+  },
+  {
+    "deliverable": "pattern_changes.csv",
+    "category": "output",
+    "original_path": "output/pattern_changes.csv",
+    "archive_path": "output/final_deliverables/output/pattern_changes.csv",
+    "file_size_bytes": 37442,
+    "sha256": "1e318029927ea1de27f136482be990e680e4d8aded56919b7b7bf9b2576170a4",
+    "description": "Annual transitions between adjacent capital allocation patterns",
+    "timestamp": "2026-10-23T23:19:20.770291"
+  },
+  {
+    "deliverable": "skipped_tearsheets.csv",
+    "category": "output",
+    "original_path": "output/skipped_tearsheets.csv",
+    "archive_path": "output/final_deliverables/output/skipped_tearsheets.csv",
+    "file_size_bytes": 164,
+    "sha256": "40d7777c093f9c52a76cb6e4ae20d26f28c83885b26dbefea892dd3525e6de6e",
+    "description": "Audit log of skipped tear sheets (JIOFIN with 2 observations)",
+    "timestamp": "2026-10-23T23:19:20.799956"
+  },
+  {
+    "deliverable": "pros_cons_generated.csv",
+    "category": "output",
+    "original_path": "output/pros_cons_generated.csv",
+    "archive_path": "output/final_deliverables/output/pros_cons_generated.csv",
+    "file_size_bytes": 69686,
+    "sha256": "a912c8501c55cbfda6db79ca7383b7288d46c2c353d9a3dfd67bf90fa29e5d25",
+    "description": "Generated strengths and weaknesses across 92 companies",
+    "timestamp": "2026-10-23T23:19:20.856314"
+  },
+  {
+    "deliverable": "pros_cons_unresolved.csv",
+    "category": "output",
+    "original_path": "output/pros_cons_unresolved.csv",
+    "archive_path": "output/final_deliverables/output/pros_cons_unresolved.csv",
+    "file_size_bytes": 460,
+    "sha256": "e8d3519fccc9c6b12f1842fd0caf9ef5adc1118cbc3cc22e827250b1f717db93",
+    "description": "Documented unresolved companies (SBIN, SIEMENS)",
+    "timestamp": "2026-10-23T23:19:20.891023"
+  },
+  {
+    "deliverable": "analysis_parsed.csv",
+    "category": "output",
+    "original_path": "output/analysis_parsed.csv",
+    "archive_path": "output/final_deliverables/output/analysis_parsed.csv",
+    "file_size_bytes": 1711,
+    "sha256": "6c2d3cebbb2d44c7f8755ee41fc7e2cc1a24bc897f6d2c03d4d4bbe16a0d3daf",
+    "description": "NLP-parsed CAGR and growth metrics",
+    "timestamp": "2026-10-23T23:19:20.922817"
+  },
+  {
+    "deliverable": "cagr_cross_validation.csv",
+    "category": "output",
+    "original_path": "output/cagr_cross_validation.csv",
+    "archive_path": "output/final_deliverables/output/cagr_cross_validation.csv",
+    "file_size_bytes": 2133,
+    "sha256": "125c7949ff5e1ffaa15dec4925e3ca4e3edfbdecc3f508e9a3be010d2116f7ad",
+    "description": "Cross-validation of parsed CAGRs vs calculated CAGRs",
+    "timestamp": "2026-10-23T23:19:20.967951"
+  },
+  {
+    "deliverable": "parse_failures.csv",
+    "category": "output",
+    "original_path": "output/parse_failures.csv",
+    "archive_path": "output/final_deliverables/output/parse_failures.csv",
+    "file_size_bytes": 3286,
+    "sha256": "b3f8be5cafe7a99c07a853b590f528cfc5149202785252fd118af00b22b3c8fc",
+    "description": "NLP extraction failure log and unmapped tickers",
+    "timestamp": "2026-10-23T23:19:21.014384"
+  },
+  {
+    "deliverable": "valuation_summary.xlsx",
+    "category": "output",
+    "original_path": "output/valuation_summary.xlsx",
+    "archive_path": "output/final_deliverables/output/valuation_summary.xlsx",
+    "file_size_bytes": 12247,
+    "sha256": "5dcd09c4961546bb99440684f70a9fdd6aa53c2e8588db333aadf6a4b0083bfe",
+    "description": "Valuation summary workbook with sector multiples",
+    "timestamp": "2026-10-23T23:19:21.062524"
+  },
+  {
+    "deliverable": "valuation_flags.csv",
+    "category": "output",
+    "original_path": "output/valuation_flags.csv",
+    "archive_path": "output/final_deliverables/output/valuation_flags.csv",
+    "file_size_bytes": 4022,
+    "sha256": "9539e118adf6da4e4c7ca55b0ee30f62481ea2a5e1285079cf8cc3bb76acf094",
+    "description": "Valuation flags per company",
+    "timestamp": "2026-10-23T23:19:21.103376"
+  },
+  {
+    "deliverable": "screener_output.xlsx",
+    "category": "output",
+    "original_path": "output/screener_output.xlsx",
+    "archive_path": "output/final_deliverables/output/screener_output.xlsx",
+    "file_size_bytes": 31584,
+    "sha256": "1ed797e690d534f099b47ebcc4413165136ad60a05778ef975a87b74984f4cb0",
+    "description": "Financial screener multi-preset output workbook",
+    "timestamp": "2026-10-23T23:19:21.158482"
+  },
+  {
+    "deliverable": "peer_comparison.xlsx",
+    "category": "output",
+    "original_path": "output/peer_comparison.xlsx",
+    "archive_path": "output/final_deliverables/output/peer_comparison.xlsx",
+    "file_size_bytes": 24639,
+    "sha256": "39f3083d486bdf46c2bc35d46ae12f5e22f83a24937664063721f1014f8a0003",
+    "description": "Peer cohort comparison workbook across 11 groups",
+    "timestamp": "2026-10-23T23:19:21.206215"
+  }
+]

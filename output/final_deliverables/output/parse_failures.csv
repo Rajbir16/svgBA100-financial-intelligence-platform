@@ -1,0 +1,29 @@
+company_id,source_field,original_text,failure_reason
+HDFCBANK,compounded_profit_growth,TTM:                27%,Non-standard period format: TTM (Trailing Twelve Months) lacks discrete year count
+HDFCBANK,compounded_sales_growth,TTM:            47%,Non-standard period format: TTM (Trailing Twelve Months) lacks discrete year count
+HDFCBANK,roe,Last Year:    17%,Non-standard period format: 'Last Year' lacks numeric year count
+INFY,compounded_profit_growth,TTM:                 8%,Non-standard period format: TTM (Trailing Twelve Months) lacks discrete year count
+INFY,compounded_sales_growth,TTM:            3%,Non-standard period format: TTM (Trailing Twelve Months) lacks discrete year count
+INFY,roe,Last Year:     32%,Non-standard period format: 'Last Year' lacks numeric year count
+SBILIFE,compounded_profit_growth,TTM:                 18%,Non-standard period format: TTM (Trailing Twelve Months) lacks discrete year count
+SBILIFE,compounded_sales_growth,TTM:            43%,Non-standard period format: TTM (Trailing Twelve Months) lacks discrete year count
+SBILIFE,roe,Last Year:      12%,Non-standard period format: 'Last Year' lacks numeric year count
+TCS,compounded_profit_growth,TTM:                 8%,Non-standard period format: TTM (Trailing Twelve Months) lacks discrete year count
+TCS,compounded_sales_growth,TTM:            5%,Non-standard period format: TTM (Trailing Twelve Months) lacks discrete year count
+TCS,roe,Last Year:       52%,Non-standard period format: 'Last Year' lacks numeric year count
+WIPRO,compounded_profit_growth,10 Years:          3%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,compounded_profit_growth,5 Years:            4%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,compounded_profit_growth,3 Years:            0%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,compounded_profit_growth,TTM:                 1%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,compounded_sales_growth,10 Years:     8%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,compounded_sales_growth,5 Years:       9%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,compounded_sales_growth,3 Years:      13%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,compounded_sales_growth,TTM:           -3%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,roe,10 Years:        18%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,roe,5 Years:          17%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,roe,3 Years:          17%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,roe,Last Year:       14%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,stock_price_cagr,10 Years:     12%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,stock_price_cagr,5 Years:     20%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,stock_price_cagr,3 Years:      -1%,Unmapped company ID 'WIPRO': not found in master companies table
+WIPRO,stock_price_cagr,1 Year:       39%,Unmapped company ID 'WIPRO': not found in master companies table

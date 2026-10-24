@@ -1,0 +1,3 @@
+company_id,company_name,sector,has_pro,has_con,status,reason
+SBIN,State Bank of India,Financials,True,False,UNRESOLVED_COVERAGE,"No con rule criteria met: company demonstrates strong operational stability, zero excessive leverage, and positive cash generation"
+SIEMENS,Siemens Ltd,Industrials,True,False,UNRESOLVED_COVERAGE,"No con rule criteria met: company demonstrates strong operational stability, zero excessive leverage, and positive cash generation"

@@ -1,0 +1,1341 @@
+rule_id,severity,table_name,company_id,year,column_name,value,message
+DQ-16,INFO,companies,EICHERMOT,,about_company,"Eicher Motors Limited, incorporated in 1982, is the listed company of the Eicher Group in India and a leading player ...",Untrimmed or irregular whitespace detected in 'about_company'
+DQ-16,INFO,companies,HCLTECH,,about_company,"HCL Tech is a leading global IT services company, which is ranked amongst the top five Indian IT services companies i...",Untrimmed or irregular whitespace detected in 'about_company'
+DQ-16,INFO,companies,LT,,about_company,"Lithuania, officially the Republic of Lithuania, is a country in the Baltic region of Europe. It is one of three Balt...",Untrimmed or irregular whitespace detected in 'about_company'
+DQ-16,INFO,companies,ONGC,,about_company,The Oil and Natural Gas Corporation is an Indian government-owned-oil and gas explorer and producer. It is under the ...,Untrimmed or irregular whitespace detected in 'about_company'
+DQ-16,INFO,companies,PNB,,about_company,Punjab National Bank is an Indian government bank based in New Delhi. It was founded in May 1894 and is the second-la...,Untrimmed or irregular whitespace detected in 'about_company'
+DQ-09,WARNING,stock_prices,ABB,2022-06-01,high_price,"high=3339.06, open=3362.05",Stock high price (3339.06) is lower than open price (3362.05)
+DQ-09,WARNING,stock_prices,ADANIENSOL,2021-03-01,high_price,"high=5571.95, open=5575.31",Stock high price (5571.95) is lower than open price (5575.31)
+DQ-09,WARNING,stock_prices,ADANIENSOL,2021-11-01,high_price,"high=4742.96, open=4760.63",Stock high price (4742.96) is lower than open price (4760.63)
+DQ-09,WARNING,stock_prices,ADANIENSOL,2023-06-01,high_price,"high=4106.31, open=4113.49",Stock high price (4106.31) is lower than open price (4113.49)
+DQ-09,WARNING,stock_prices,ADANIENT,2020-09-01,high_price,"high=5214.32, open=5221.43",Stock high price (5214.32) is lower than open price (5221.43)
+DQ-09,WARNING,stock_prices,ADANIENT,2021-12-01,high_price,"high=6128.97, open=6171.41",Stock high price (6128.97) is lower than open price (6171.41)
+DQ-09,WARNING,stock_prices,ADANIGREEN,2021-02-01,high_price,"high=4179.52, open=4182.59",Stock high price (4179.52) is lower than open price (4182.59)
+DQ-09,WARNING,stock_prices,ADANIPORTS,2021-01-01,high_price,"high=1169.27, open=1172.75",Stock high price (1169.27) is lower than open price (1172.75)
+DQ-09,WARNING,stock_prices,ADANIPOWER,2023-06-01,high_price,"high=1609.82, open=1623.59",Stock high price (1609.82) is lower than open price (1623.59)
+DQ-09,WARNING,stock_prices,APOLLOHOSP,2023-10-01,high_price,"high=3445.88, open=3453.25",Stock high price (3445.88) is lower than open price (3453.25)
+DQ-09,WARNING,stock_prices,BAJAJFINSV,2020-06-01,high_price,"high=4557.17, open=4559.69",Stock high price (4557.17) is lower than open price (4559.69)
+DQ-09,WARNING,stock_prices,BAJAJFINSV,2021-01-01,high_price,"high=4444.05, open=4465.14",Stock high price (4444.05) is lower than open price (4465.14)
+DQ-09,WARNING,stock_prices,BAJFINANCE,2021-01-01,high_price,"high=1402.06, open=1402.64",Stock high price (1402.06) is lower than open price (1402.64)
+DQ-09,WARNING,stock_prices,BAJFINANCE,2024-07-01,high_price,"high=2025.98, open=2029.96",Stock high price (2025.98) is lower than open price (2029.96)
+DQ-09,WARNING,stock_prices,BEL,2020-12-01,high_price,"high=1958.13, open=1958.82",Stock high price (1958.13) is lower than open price (1958.82)
+DQ-09,WARNING,stock_prices,BHARTIARTL,2023-05-01,high_price,"high=4038.33, open=4041.74",Stock high price (4038.33) is lower than open price (4041.74)
+DQ-09,WARNING,stock_prices,BHEL,2022-12-01,high_price,"high=2269.07, open=2271.01",Stock high price (2269.07) is lower than open price (2271.01)
+DQ-09,WARNING,stock_prices,DIVISLAB,2020-05-01,high_price,"high=3633.84, open=3641.92",Stock high price (3633.84) is lower than open price (3641.92)
+DQ-09,WARNING,stock_prices,DLF,2022-03-01,high_price,"high=2243.87, open=2251.7",Stock high price (2243.87) is lower than open price (2251.7)
+DQ-09,WARNING,stock_prices,DLF,2024-10-01,high_price,"high=4247.47, open=4263.63",Stock high price (4247.47) is lower than open price (4263.63)
+DQ-09,WARNING,stock_prices,EICHERMOT,2022-11-01,high_price,"high=1133.34, open=1139.19",Stock high price (1133.34) is lower than open price (1139.19)
+DQ-09,WARNING,stock_prices,GRASIM,2022-03-01,high_price,"high=6836.31, open=6860.47",Stock high price (6836.31) is lower than open price (6860.47)
+DQ-09,WARNING,stock_prices,HDFCBANK,2023-08-01,high_price,"high=4548.92, open=4584.29",Stock high price (4548.92) is lower than open price (4584.29)
+DQ-09,WARNING,stock_prices,HEROMOTOCO,2021-06-01,high_price,"high=913.04, open=920.43",Stock high price (913.04) is lower than open price (920.43)
+DQ-09,WARNING,stock_prices,HINDALCO,2023-08-01,high_price,"high=2799.68, open=2805.58",Stock high price (2799.68) is lower than open price (2805.58)
+DQ-09,WARNING,stock_prices,HINDUNILVR,2022-06-01,high_price,"high=440.68, open=441.55",Stock high price (440.68) is lower than open price (441.55)
+DQ-09,WARNING,stock_prices,HINDUNILVR,2024-08-01,high_price,"high=406.56, open=410.07",Stock high price (406.56) is lower than open price (410.07)
+DQ-09,WARNING,stock_prices,ICICIGI,2024-02-01,high_price,"high=1886.72, open=1896.75",Stock high price (1886.72) is lower than open price (1896.75)
+DQ-09,WARNING,stock_prices,INDUSINDBK,2022-03-01,high_price,"high=4397.92, open=4417.94",Stock high price (4397.92) is lower than open price (4417.94)
+DQ-09,WARNING,stock_prices,INFY,2021-09-01,high_price,"high=4279.37, open=4302.19",Stock high price (4279.37) is lower than open price (4302.19)
+DQ-09,WARNING,stock_prices,IOC,2022-02-01,high_price,"high=753.81, open=754.68",Stock high price (753.81) is lower than open price (754.68)
+DQ-09,WARNING,stock_prices,IOC,2022-08-01,high_price,"high=1108.65, open=1108.96",Stock high price (1108.65) is lower than open price (1108.96)
+DQ-09,WARNING,stock_prices,IRCTC,2022-05-01,high_price,"high=6640.61, open=6671.26",Stock high price (6640.61) is lower than open price (6671.26)
+DQ-09,WARNING,stock_prices,IRFC,2024-06-01,high_price,"high=5283.65, open=5321.02",Stock high price (5283.65) is lower than open price (5321.02)
+DQ-09,WARNING,stock_prices,JIOFIN,2022-02-01,high_price,"high=5710.95, open=5753.57",Stock high price (5710.95) is lower than open price (5753.57)
+DQ-09,WARNING,stock_prices,JIOFIN,2024-01-01,high_price,"high=8454.55, open=8469.8",Stock high price (8454.55) is lower than open price (8469.8)
+DQ-09,WARNING,stock_prices,JSWENERGY,2023-04-01,high_price,"high=9280.72, open=9290.93",Stock high price (9280.72) is lower than open price (9290.93)
+DQ-09,WARNING,stock_prices,JSWENERGY,2023-06-01,high_price,"high=8610.1, open=8619.9",Stock high price (8610.1) is lower than open price (8619.9)
+DQ-09,WARNING,stock_prices,MOTHERSON,2023-04-01,high_price,"high=2545.54, open=2547.79",Stock high price (2545.54) is lower than open price (2547.79)
+DQ-09,WARNING,stock_prices,NESTLEIND,2023-01-01,high_price,"high=499.78, open=500.46",Stock high price (499.78) is lower than open price (500.46)
+DQ-09,WARNING,stock_prices,NHPC,2023-11-01,high_price,"high=8875.96, open=8927.35",Stock high price (8875.96) is lower than open price (8927.35)
+DQ-09,WARNING,stock_prices,ONGC,2022-06-01,high_price,"high=7731.56, open=7757.04",Stock high price (7731.56) is lower than open price (7757.04)
+DQ-09,WARNING,stock_prices,PFC,2022-10-01,high_price,"high=7807.18, open=7809.71",Stock high price (7807.18) is lower than open price (7809.71)
+DQ-09,WARNING,stock_prices,PFC,2023-10-01,high_price,"high=6772.9, open=6799.54",Stock high price (6772.9) is lower than open price (6799.54)
+DQ-09,WARNING,stock_prices,PIDILITIND,2023-01-01,high_price,"high=762.91, open=764.07",Stock high price (762.91) is lower than open price (764.07)
+DQ-09,WARNING,stock_prices,PNB,2022-06-01,high_price,"high=138.76, open=139.09",Stock high price (138.76) is lower than open price (139.09)
+DQ-09,WARNING,stock_prices,POWERGRID,2024-11-01,high_price,"high=6653.54, open=6672.46",Stock high price (6653.54) is lower than open price (6672.46)
+DQ-09,WARNING,stock_prices,RECLTD,2020-05-01,high_price,"high=4149.22, open=4164.6",Stock high price (4149.22) is lower than open price (4164.6)
+DQ-09,WARNING,stock_prices,RECLTD,2021-03-01,high_price,"high=5746.03, open=5782.74",Stock high price (5746.03) is lower than open price (5782.74)
+DQ-09,WARNING,stock_prices,SHREECEM,2023-11-01,high_price,"high=2638.67, open=2644.65",Stock high price (2638.67) is lower than open price (2644.65)
+DQ-09,WARNING,stock_prices,SHRIRAMFIN,2022-07-01,high_price,"high=1524.1, open=1524.11",Stock high price (1524.1) is lower than open price (1524.11)
+DQ-09,WARNING,stock_prices,SHRIRAMFIN,2024-05-01,high_price,"high=1148.96, open=1149.16",Stock high price (1148.96) is lower than open price (1149.16)
+DQ-09,WARNING,stock_prices,TCS,2024-07-01,high_price,"high=5042.8, open=5044.73",Stock high price (5042.8) is lower than open price (5044.73)
+DQ-09,WARNING,stock_prices,TORNTPHARM,2022-11-01,high_price,"high=1777.19, open=1784.99",Stock high price (1777.19) is lower than open price (1784.99)
+DQ-09,WARNING,stock_prices,TORNTPHARM,2023-09-01,high_price,"high=1952.57, open=1952.98",Stock high price (1952.57) is lower than open price (1952.98)
+DQ-06,WARNING,financial_ratios,ABB,Mar 2014,year,Mar 2014,Duplicate record detected for company 'ABB' and year 'Mar 2014'
+DQ-06,WARNING,financial_ratios,ABB,Mar 2015,year,Mar 2015,Duplicate record detected for company 'ABB' and year 'Mar 2015'
+DQ-06,WARNING,financial_ratios,ABB,Mar 2016,year,Mar 2016,Duplicate record detected for company 'ABB' and year 'Mar 2016'
+DQ-06,WARNING,financial_ratios,ABB,Mar 2017,year,Mar 2017,Duplicate record detected for company 'ABB' and year 'Mar 2017'
+DQ-06,WARNING,financial_ratios,ABB,Mar 2018,year,Mar 2018,Duplicate record detected for company 'ABB' and year 'Mar 2018'
+DQ-06,WARNING,financial_ratios,ABB,Mar 2019,year,Mar 2019,Duplicate record detected for company 'ABB' and year 'Mar 2019'
+DQ-06,WARNING,financial_ratios,ABB,Mar 2020,year,Mar 2020,Duplicate record detected for company 'ABB' and year 'Mar 2020'
+DQ-06,WARNING,financial_ratios,ABB,Mar 2021,year,Mar 2021,Duplicate record detected for company 'ABB' and year 'Mar 2021'
+DQ-06,WARNING,financial_ratios,ABB,Mar 2022,year,Mar 2022,Duplicate record detected for company 'ABB' and year 'Mar 2022'
+DQ-06,WARNING,financial_ratios,ABB,Mar 2023,year,Mar 2023,Duplicate record detected for company 'ABB' and year 'Mar 2023'
+DQ-06,WARNING,financial_ratios,ABB,Mar 2024,year,Mar 2024,Duplicate record detected for company 'ABB' and year 'Mar 2024'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2013,year,Mar 2013,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2013'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2014,year,Mar 2014,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2014'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2015,year,Mar 2015,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2015'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2016,year,Mar 2016,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2016'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2017,year,Mar 2017,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2017'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2018,year,Mar 2018,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2018'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2019,year,Mar 2019,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2019'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2020,year,Mar 2020,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2020'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2021,year,Mar 2021,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2021'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2022,year,Mar 2022,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2022'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2023,year,Mar 2023,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2023'
+DQ-06,WARNING,financial_ratios,ADANIPORTS,Mar 2024,year,Mar 2024,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2024'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2013,year,Mar 2013,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2013'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2014,year,Mar 2014,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2014'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2015,year,Mar 2015,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2015'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2016,year,Mar 2016,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2016'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2017,year,Mar 2017,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2017'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2018,year,Mar 2018,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2018'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2019,year,Mar 2019,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2019'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2020,year,Mar 2020,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2020'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2021,year,Mar 2021,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2021'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2022,year,Mar 2022,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2022'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2023,year,Mar 2023,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2023'
+DQ-06,WARNING,financial_ratios,ASIANPAINT,Mar 2024,year,Mar 2024,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2024'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2013,year,Mar 2013,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2013'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2014,year,Mar 2014,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2014'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2015,year,Mar 2015,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2015'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2016,year,Mar 2016,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2016'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2017,year,Mar 2017,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2017'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2018,year,Mar 2018,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2018'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2019,year,Mar 2019,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2019'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2020,year,Mar 2020,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2020'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2021,year,Mar 2021,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2021'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2022,year,Mar 2022,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2022'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2023,year,Mar 2023,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2023'
+DQ-06,WARNING,financial_ratios,BAJAJ-AUTO,Mar 2024,year,Mar 2024,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2024'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2013,year,Mar 2013,Duplicate record detected for company 'PNB' and year 'Mar 2013'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2013,year,Mar 2013,Duplicate record detected for company 'PNB' and year 'Mar 2013'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2013,year,Mar 2013,Duplicate record detected for company 'PNB' and year 'Mar 2013'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2013,year,Mar 2013,Duplicate record detected for company 'PNB' and year 'Mar 2013'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2014,year,Mar 2014,Duplicate record detected for company 'PNB' and year 'Mar 2014'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2014,year,Mar 2014,Duplicate record detected for company 'PNB' and year 'Mar 2014'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2014,year,Mar 2014,Duplicate record detected for company 'PNB' and year 'Mar 2014'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2014,year,Mar 2014,Duplicate record detected for company 'PNB' and year 'Mar 2014'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2015,year,Mar 2015,Duplicate record detected for company 'PNB' and year 'Mar 2015'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2015,year,Mar 2015,Duplicate record detected for company 'PNB' and year 'Mar 2015'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2015,year,Mar 2015,Duplicate record detected for company 'PNB' and year 'Mar 2015'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2015,year,Mar 2015,Duplicate record detected for company 'PNB' and year 'Mar 2015'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2016,year,Mar 2016,Duplicate record detected for company 'PNB' and year 'Mar 2016'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2016,year,Mar 2016,Duplicate record detected for company 'PNB' and year 'Mar 2016'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2016,year,Mar 2016,Duplicate record detected for company 'PNB' and year 'Mar 2016'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2016,year,Mar 2016,Duplicate record detected for company 'PNB' and year 'Mar 2016'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2017,year,Mar 2017,Duplicate record detected for company 'PNB' and year 'Mar 2017'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2017,year,Mar 2017,Duplicate record detected for company 'PNB' and year 'Mar 2017'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2017,year,Mar 2017,Duplicate record detected for company 'PNB' and year 'Mar 2017'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2017,year,Mar 2017,Duplicate record detected for company 'PNB' and year 'Mar 2017'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2018,year,Mar 2018,Duplicate record detected for company 'PNB' and year 'Mar 2018'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2018,year,Mar 2018,Duplicate record detected for company 'PNB' and year 'Mar 2018'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2018,year,Mar 2018,Duplicate record detected for company 'PNB' and year 'Mar 2018'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2018,year,Mar 2018,Duplicate record detected for company 'PNB' and year 'Mar 2018'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2019,year,Mar 2019,Duplicate record detected for company 'PNB' and year 'Mar 2019'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2019,year,Mar 2019,Duplicate record detected for company 'PNB' and year 'Mar 2019'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2019,year,Mar 2019,Duplicate record detected for company 'PNB' and year 'Mar 2019'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2019,year,Mar 2019,Duplicate record detected for company 'PNB' and year 'Mar 2019'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2020,year,Mar 2020,Duplicate record detected for company 'PNB' and year 'Mar 2020'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2020,year,Mar 2020,Duplicate record detected for company 'PNB' and year 'Mar 2020'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2020,year,Mar 2020,Duplicate record detected for company 'PNB' and year 'Mar 2020'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2020,year,Mar 2020,Duplicate record detected for company 'PNB' and year 'Mar 2020'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2021,year,Mar 2021,Duplicate record detected for company 'PNB' and year 'Mar 2021'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2021,year,Mar 2021,Duplicate record detected for company 'PNB' and year 'Mar 2021'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2021,year,Mar 2021,Duplicate record detected for company 'PNB' and year 'Mar 2021'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2021,year,Mar 2021,Duplicate record detected for company 'PNB' and year 'Mar 2021'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2022,year,Mar 2022,Duplicate record detected for company 'PNB' and year 'Mar 2022'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2022,year,Mar 2022,Duplicate record detected for company 'PNB' and year 'Mar 2022'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2022,year,Mar 2022,Duplicate record detected for company 'PNB' and year 'Mar 2022'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2022,year,Mar 2022,Duplicate record detected for company 'PNB' and year 'Mar 2022'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2023,year,Mar 2023,Duplicate record detected for company 'PNB' and year 'Mar 2023'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2023,year,Mar 2023,Duplicate record detected for company 'PNB' and year 'Mar 2023'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2023,year,Mar 2023,Duplicate record detected for company 'PNB' and year 'Mar 2023'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2023,year,Mar 2023,Duplicate record detected for company 'PNB' and year 'Mar 2023'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2024,year,Mar 2024,Duplicate record detected for company 'PNB' and year 'Mar 2024'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2024,year,Mar 2024,Duplicate record detected for company 'PNB' and year 'Mar 2024'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2024,year,Mar 2024,Duplicate record detected for company 'PNB' and year 'Mar 2024'
+DQ-06,WARNING,financial_ratios,PNB,Mar 2024,year,Mar 2024,Duplicate record detected for company 'PNB' and year 'Mar 2024'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2013,year,Mar 2013,Duplicate record detected for company 'POWERGRID' and year 'Mar 2013'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2014,year,Mar 2014,Duplicate record detected for company 'POWERGRID' and year 'Mar 2014'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2015,year,Mar 2015,Duplicate record detected for company 'POWERGRID' and year 'Mar 2015'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2016,year,Mar 2016,Duplicate record detected for company 'POWERGRID' and year 'Mar 2016'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2017,year,Mar 2017,Duplicate record detected for company 'POWERGRID' and year 'Mar 2017'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2018,year,Mar 2018,Duplicate record detected for company 'POWERGRID' and year 'Mar 2018'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2019,year,Mar 2019,Duplicate record detected for company 'POWERGRID' and year 'Mar 2019'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2020,year,Mar 2020,Duplicate record detected for company 'POWERGRID' and year 'Mar 2020'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2021,year,Mar 2021,Duplicate record detected for company 'POWERGRID' and year 'Mar 2021'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2022,year,Mar 2022,Duplicate record detected for company 'POWERGRID' and year 'Mar 2022'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2023,year,Mar 2023,Duplicate record detected for company 'POWERGRID' and year 'Mar 2023'
+DQ-06,WARNING,financial_ratios,POWERGRID,Mar 2024,year,Mar 2024,Duplicate record detected for company 'POWERGRID' and year 'Mar 2024'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2013,year,Mar 2013,Duplicate record detected for company 'TECHM' and year 'Mar 2013'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2014,year,Mar 2014,Duplicate record detected for company 'TECHM' and year 'Mar 2014'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2015,year,Mar 2015,Duplicate record detected for company 'TECHM' and year 'Mar 2015'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2016,year,Mar 2016,Duplicate record detected for company 'TECHM' and year 'Mar 2016'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2017,year,Mar 2017,Duplicate record detected for company 'TECHM' and year 'Mar 2017'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2018,year,Mar 2018,Duplicate record detected for company 'TECHM' and year 'Mar 2018'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2019,year,Mar 2019,Duplicate record detected for company 'TECHM' and year 'Mar 2019'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2020,year,Mar 2020,Duplicate record detected for company 'TECHM' and year 'Mar 2020'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2021,year,Mar 2021,Duplicate record detected for company 'TECHM' and year 'Mar 2021'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2022,year,Mar 2022,Duplicate record detected for company 'TECHM' and year 'Mar 2022'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2023,year,Mar 2023,Duplicate record detected for company 'TECHM' and year 'Mar 2023'
+DQ-06,WARNING,financial_ratios,TECHM,Mar 2024,year,Mar 2024,Duplicate record detected for company 'TECHM' and year 'Mar 2024'
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,financial_ratios,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2013,year,Mar 2013,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2013'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2014,year,Mar 2014,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2014'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2015,year,Mar 2015,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2015'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2016,year,Mar 2016,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2016'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2017,year,Mar 2017,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2017'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2018,year,Mar 2018,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2018'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2019,year,Mar 2019,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2019'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2020,year,Mar 2020,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2020'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2021,year,Mar 2021,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2021'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2022,year,Mar 2022,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2022'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2023,year,Mar 2023,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2023'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Mar 2024,year,Mar 2024,Duplicate record detected for company 'ASIANPAINT' and year 'Mar 2024'
+DQ-06,WARNING,balancesheet,ASIANPAINT,Sep 2024,year,Sep 2024,Duplicate record detected for company 'ASIANPAINT' and year 'Sep 2024'
+DQ-13,WARNING,balancesheet,BHARTIARTL,Mar 2024,total_liabilities,"sum=442619.00, reported=442019.0",Liabilities breakdown mismatch: sum of components (442619.00) != total_liabilities (442019.0)
+DQ-13,WARNING,balancesheet,ICICIPRULI,Sep 2024,total_liabilities,"sum=325637.00, reported=326838.0",Liabilities breakdown mismatch: sum of components (325637.00) != total_liabilities (326838.0)
+DQ-13,WARNING,balancesheet,LODHA,Mar 2015,total_liabilities,"sum=27898.00, reported=27998.0",Liabilities breakdown mismatch: sum of components (27898.00) != total_liabilities (27998.0)
+DQ-06,WARNING,balancesheet,PNB,Mar 2013,year,Mar 2013,Duplicate record detected for company 'PNB' and year 'Mar 2013'
+DQ-06,WARNING,balancesheet,PNB,Mar 2014,year,Mar 2014,Duplicate record detected for company 'PNB' and year 'Mar 2014'
+DQ-06,WARNING,balancesheet,PNB,Mar 2015,year,Mar 2015,Duplicate record detected for company 'PNB' and year 'Mar 2015'
+DQ-06,WARNING,balancesheet,PNB,Mar 2016,year,Mar 2016,Duplicate record detected for company 'PNB' and year 'Mar 2016'
+DQ-06,WARNING,balancesheet,PNB,Mar 2017,year,Mar 2017,Duplicate record detected for company 'PNB' and year 'Mar 2017'
+DQ-06,WARNING,balancesheet,PNB,Mar 2018,year,Mar 2018,Duplicate record detected for company 'PNB' and year 'Mar 2018'
+DQ-06,WARNING,balancesheet,PNB,Mar 2019,year,Mar 2019,Duplicate record detected for company 'PNB' and year 'Mar 2019'
+DQ-06,WARNING,balancesheet,PNB,Mar 2020,year,Mar 2020,Duplicate record detected for company 'PNB' and year 'Mar 2020'
+DQ-06,WARNING,balancesheet,PNB,Mar 2021,year,Mar 2021,Duplicate record detected for company 'PNB' and year 'Mar 2021'
+DQ-06,WARNING,balancesheet,PNB,Mar 2022,year,Mar 2022,Duplicate record detected for company 'PNB' and year 'Mar 2022'
+DQ-06,WARNING,balancesheet,PNB,Mar 2023,year,Mar 2023,Duplicate record detected for company 'PNB' and year 'Mar 2023'
+DQ-06,WARNING,balancesheet,PNB,Mar 2024,year,Mar 2024,Duplicate record detected for company 'PNB' and year 'Mar 2024'
+DQ-06,WARNING,balancesheet,PNB,Mar 2013,year,Mar 2013,Duplicate record detected for company 'PNB' and year 'Mar 2013'
+DQ-06,WARNING,balancesheet,PNB,Mar 2014,year,Mar 2014,Duplicate record detected for company 'PNB' and year 'Mar 2014'
+DQ-06,WARNING,balancesheet,PNB,Mar 2015,year,Mar 2015,Duplicate record detected for company 'PNB' and year 'Mar 2015'
+DQ-06,WARNING,balancesheet,PNB,Mar 2016,year,Mar 2016,Duplicate record detected for company 'PNB' and year 'Mar 2016'
+DQ-06,WARNING,balancesheet,PNB,Mar 2017,year,Mar 2017,Duplicate record detected for company 'PNB' and year 'Mar 2017'
+DQ-06,WARNING,balancesheet,PNB,Mar 2018,year,Mar 2018,Duplicate record detected for company 'PNB' and year 'Mar 2018'
+DQ-06,WARNING,balancesheet,PNB,Mar 2019,year,Mar 2019,Duplicate record detected for company 'PNB' and year 'Mar 2019'
+DQ-06,WARNING,balancesheet,PNB,Mar 2020,year,Mar 2020,Duplicate record detected for company 'PNB' and year 'Mar 2020'
+DQ-06,WARNING,balancesheet,PNB,Mar 2021,year,Mar 2021,Duplicate record detected for company 'PNB' and year 'Mar 2021'
+DQ-06,WARNING,balancesheet,PNB,Mar 2022,year,Mar 2022,Duplicate record detected for company 'PNB' and year 'Mar 2022'
+DQ-06,WARNING,balancesheet,PNB,Mar 2023,year,Mar 2023,Duplicate record detected for company 'PNB' and year 'Mar 2023'
+DQ-06,WARNING,balancesheet,PNB,Mar 2024,year,Mar 2024,Duplicate record detected for company 'PNB' and year 'Mar 2024'
+DQ-06,WARNING,balancesheet,PNB,Mar 2013,year,Mar 2013,Duplicate record detected for company 'PNB' and year 'Mar 2013'
+DQ-06,WARNING,balancesheet,PNB,Mar 2014,year,Mar 2014,Duplicate record detected for company 'PNB' and year 'Mar 2014'
+DQ-06,WARNING,balancesheet,PNB,Mar 2015,year,Mar 2015,Duplicate record detected for company 'PNB' and year 'Mar 2015'
+DQ-06,WARNING,balancesheet,PNB,Mar 2016,year,Mar 2016,Duplicate record detected for company 'PNB' and year 'Mar 2016'
+DQ-06,WARNING,balancesheet,PNB,Mar 2017,year,Mar 2017,Duplicate record detected for company 'PNB' and year 'Mar 2017'
+DQ-06,WARNING,balancesheet,PNB,Mar 2018,year,Mar 2018,Duplicate record detected for company 'PNB' and year 'Mar 2018'
+DQ-06,WARNING,balancesheet,PNB,Mar 2019,year,Mar 2019,Duplicate record detected for company 'PNB' and year 'Mar 2019'
+DQ-06,WARNING,balancesheet,PNB,Mar 2020,year,Mar 2020,Duplicate record detected for company 'PNB' and year 'Mar 2020'
+DQ-06,WARNING,balancesheet,PNB,Mar 2021,year,Mar 2021,Duplicate record detected for company 'PNB' and year 'Mar 2021'
+DQ-06,WARNING,balancesheet,PNB,Mar 2022,year,Mar 2022,Duplicate record detected for company 'PNB' and year 'Mar 2022'
+DQ-06,WARNING,balancesheet,PNB,Mar 2023,year,Mar 2023,Duplicate record detected for company 'PNB' and year 'Mar 2023'
+DQ-06,WARNING,balancesheet,PNB,Mar 2024,year,Mar 2024,Duplicate record detected for company 'PNB' and year 'Mar 2024'
+DQ-06,WARNING,balancesheet,PNB,Mar 2013,year,Mar 2013,Duplicate record detected for company 'PNB' and year 'Mar 2013'
+DQ-06,WARNING,balancesheet,PNB,Mar 2014,year,Mar 2014,Duplicate record detected for company 'PNB' and year 'Mar 2014'
+DQ-06,WARNING,balancesheet,PNB,Mar 2015,year,Mar 2015,Duplicate record detected for company 'PNB' and year 'Mar 2015'
+DQ-06,WARNING,balancesheet,PNB,Mar 2016,year,Mar 2016,Duplicate record detected for company 'PNB' and year 'Mar 2016'
+DQ-06,WARNING,balancesheet,PNB,Mar 2017,year,Mar 2017,Duplicate record detected for company 'PNB' and year 'Mar 2017'
+DQ-06,WARNING,balancesheet,PNB,Mar 2018,year,Mar 2018,Duplicate record detected for company 'PNB' and year 'Mar 2018'
+DQ-06,WARNING,balancesheet,PNB,Mar 2019,year,Mar 2019,Duplicate record detected for company 'PNB' and year 'Mar 2019'
+DQ-06,WARNING,balancesheet,PNB,Mar 2020,year,Mar 2020,Duplicate record detected for company 'PNB' and year 'Mar 2020'
+DQ-06,WARNING,balancesheet,PNB,Mar 2021,year,Mar 2021,Duplicate record detected for company 'PNB' and year 'Mar 2021'
+DQ-06,WARNING,balancesheet,PNB,Mar 2022,year,Mar 2022,Duplicate record detected for company 'PNB' and year 'Mar 2022'
+DQ-06,WARNING,balancesheet,PNB,Mar 2023,year,Mar 2023,Duplicate record detected for company 'PNB' and year 'Mar 2023'
+DQ-06,WARNING,balancesheet,PNB,Mar 2024,year,Mar 2024,Duplicate record detected for company 'PNB' and year 'Mar 2024'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2013,year,Mar 2013,Duplicate record detected for company 'POWERGRID' and year 'Mar 2013'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2014,year,Mar 2014,Duplicate record detected for company 'POWERGRID' and year 'Mar 2014'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2015,year,Mar 2015,Duplicate record detected for company 'POWERGRID' and year 'Mar 2015'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2016,year,Mar 2016,Duplicate record detected for company 'POWERGRID' and year 'Mar 2016'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2017,year,Mar 2017,Duplicate record detected for company 'POWERGRID' and year 'Mar 2017'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2018,year,Mar 2018,Duplicate record detected for company 'POWERGRID' and year 'Mar 2018'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2019,year,Mar 2019,Duplicate record detected for company 'POWERGRID' and year 'Mar 2019'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2020,year,Mar 2020,Duplicate record detected for company 'POWERGRID' and year 'Mar 2020'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2021,year,Mar 2021,Duplicate record detected for company 'POWERGRID' and year 'Mar 2021'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2022,year,Mar 2022,Duplicate record detected for company 'POWERGRID' and year 'Mar 2022'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2023,year,Mar 2023,Duplicate record detected for company 'POWERGRID' and year 'Mar 2023'
+DQ-06,WARNING,balancesheet,POWERGRID,Mar 2024,year,Mar 2024,Duplicate record detected for company 'POWERGRID' and year 'Mar 2024'
+DQ-06,WARNING,balancesheet,POWERGRID,Sep 2024,year,Sep 2024,Duplicate record detected for company 'POWERGRID' and year 'Sep 2024'
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,balancesheet,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-06,WARNING,balancesheet,TECHM,Mar 2013,year,Mar 2013,Duplicate record detected for company 'TECHM' and year 'Mar 2013'
+DQ-06,WARNING,balancesheet,TECHM,Mar 2014,year,Mar 2014,Duplicate record detected for company 'TECHM' and year 'Mar 2014'
+DQ-06,WARNING,balancesheet,TECHM,Mar 2015,year,Mar 2015,Duplicate record detected for company 'TECHM' and year 'Mar 2015'
+DQ-06,WARNING,balancesheet,TECHM,Mar 2016,year,Mar 2016,Duplicate record detected for company 'TECHM' and year 'Mar 2016'
+DQ-06,WARNING,balancesheet,TECHM,Mar 2017,year,Mar 2017,Duplicate record detected for company 'TECHM' and year 'Mar 2017'
+DQ-06,WARNING,balancesheet,TECHM,Mar 2018,year,Mar 2018,Duplicate record detected for company 'TECHM' and year 'Mar 2018'
+DQ-06,WARNING,balancesheet,TECHM,Mar 2019,year,Mar 2019,Duplicate record detected for company 'TECHM' and year 'Mar 2019'
+DQ-06,WARNING,balancesheet,TECHM,Mar 2020,year,Mar 2020,Duplicate record detected for company 'TECHM' and year 'Mar 2020'
+DQ-06,WARNING,balancesheet,TECHM,Mar 2021,year,Mar 2021,Duplicate record detected for company 'TECHM' and year 'Mar 2021'
+DQ-06,WARNING,balancesheet,TECHM,Mar 2022,year,Mar 2022,Duplicate record detected for company 'TECHM' and year 'Mar 2022'
+DQ-06,WARNING,balancesheet,TECHM,Mar 2023,year,Mar 2023,Duplicate record detected for company 'TECHM' and year 'Mar 2023'
+DQ-06,WARNING,balancesheet,TECHM,Mar 2024,year,Mar 2024,Duplicate record detected for company 'TECHM' and year 'Mar 2024'
+DQ-06,WARNING,balancesheet,TECHM,Sep 2024,year,Sep 2024,Duplicate record detected for company 'TECHM' and year 'Sep 2024'
+DQ-12,WARNING,profitandloss,ADANIENSOL,Mar 2024,opm_percentage,"reported=30.0, calc=34.39","OPM mismatch: reported 30.0%, calculated 34.39%"
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2013,year,Mar 2013,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2013'
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2014,year,Mar 2014,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2014'
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2015,year,Mar 2015,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2015'
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2016,year,Mar 2016,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2016'
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2017,year,Mar 2017,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2017'
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2018,year,Mar 2018,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2018'
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2019,year,Mar 2019,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2019'
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2020,year,Mar 2020,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2020'
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2021,year,Mar 2021,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2021'
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2022,year,Mar 2022,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2022'
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2023,year,Mar 2023,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2023'
+DQ-06,WARNING,profitandloss,ADANIPORTS,Mar 2024,year,Mar 2024,Duplicate record detected for company 'ADANIPORTS' and year 'Mar 2024'
+DQ-06,WARNING,profitandloss,ADANIPORTS,TTM,year,TTM,Duplicate record detected for company 'ADANIPORTS' and year 'TTM'
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2013,operating_profit,"sales=27183.0, exp=17516.0, op=8313.0","Operating profit mismatch: sales - expenses = 9667.00, reported 8313.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2013,opm_percentage,"reported=1353.0, calc=30.58","OPM mismatch: reported 1353.0%, calculated 30.58%"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2014,operating_profit,"sales=30641.0, exp=18690.0, op=9644.0","Operating profit mismatch: sales - expenses = 11951.00, reported 9644.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2014,opm_percentage,"reported=2307.0, calc=31.47","OPM mismatch: reported 2307.0%, calculated 31.47%"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2015,operating_profit,"sales=35479.0, exp=21254.0, op=11127.0","Operating profit mismatch: sales - expenses = 14225.00, reported 11127.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2015,opm_percentage,"reported=3097.0, calc=31.36","OPM mismatch: reported 3097.0%, calculated 31.36%"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2016,operating_profit,"sales=40988.0, exp=24155.0, op=13367.0","Operating profit mismatch: sales - expenses = 16833.00, reported 13367.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2016,opm_percentage,"reported=3466.0, calc=32.61","OPM mismatch: reported 3466.0%, calculated 32.61%"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2017,operating_profit,"sales=44542.0, exp=26449.0, op=23808.0","Operating profit mismatch: sales - expenses = 18093.00, reported 23808.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2017,opm_percentage,"reported=-5715.0, calc=53.45","OPM mismatch: reported -5715.0%, calculated 53.45%"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2018,operating_profit,"sales=45780.0, exp=27163.0, op=28895.0","Operating profit mismatch: sales - expenses = 18617.00, reported 28895.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2018,opm_percentage,"reported=-10277.0, calc=63.12","OPM mismatch: reported -10277.0%, calculated 63.12%"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2019,operating_profit,"sales=54986.0, exp=33278.0, op=27155.0","Operating profit mismatch: sales - expenses = 21708.00, reported 27155.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2019,opm_percentage,"reported=-5447.0, calc=49.39","OPM mismatch: reported -5447.0%, calculated 49.39%"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2020,operating_profit,"sales=62635.0, exp=37429.0, op=35066.0","Operating profit mismatch: sales - expenses = 25206.00, reported 35066.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2020,opm_percentage,"reported=-9859.0, calc=55.98","OPM mismatch: reported -9859.0%, calculated 55.98%"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2021,operating_profit,"sales=63346.0, exp=34107.0, op=31749.0","Operating profit mismatch: sales - expenses = 29239.00, reported 31749.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2021,opm_percentage,"reported=-2510.0, calc=50.12","OPM mismatch: reported -2510.0%, calculated 50.12%"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2022,operating_profit,"sales=67377.0, exp=34245.0, op=29962.0","Operating profit mismatch: sales - expenses = 33132.00, reported 29962.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2022,opm_percentage,"reported=3170.0, calc=44.47","OPM mismatch: reported 3170.0%, calculated 44.47%"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2023,operating_profit,"sales=85164.0, exp=42218.0, op=29089.0","Operating profit mismatch: sales - expenses = 42946.00, reported 29089.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2023,opm_percentage,"reported=13857.0, calc=34.16","OPM mismatch: reported 13857.0%, calculated 34.16%"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2024,operating_profit,"sales=109369.0, exp=59474.0, op=37943.0","Operating profit mismatch: sales - expenses = 49895.00, reported 37943.00"
+DQ-12,WARNING,profitandloss,AXISBANK,Mar 2024,opm_percentage,"reported=11952.0, calc=34.69","OPM mismatch: reported 11952.0%, calculated 34.69%"
+DQ-12,WARNING,profitandloss,AXISBANK,TTM,operating_profit,"sales=120659.0, exp=67033.0, op=44566.0","Operating profit mismatch: sales - expenses = 53626.00, reported 44566.00"
+DQ-12,WARNING,profitandloss,AXISBANK,TTM,opm_percentage,"reported=9061.0, calc=36.94","OPM mismatch: reported 9061.0%, calculated 36.94%"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2015,operating_profit,"sales=5392.0, exp=2274.0, op=1752.0","Operating profit mismatch: sales - expenses = 3118.00, reported 1752.00"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2015,opm_percentage,"reported=1367.0, calc=32.49","OPM mismatch: reported 1367.0%, calculated 32.49%"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2016,operating_profit,"sales=7299.0, exp=2959.0, op=2354.0","Operating profit mismatch: sales - expenses = 4340.00, reported 2354.00"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2016,opm_percentage,"reported=1986.0, calc=32.25","OPM mismatch: reported 1986.0%, calculated 32.25%"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2017,operating_profit,"sales=9970.0, exp=3853.0, op=3250.0","Operating profit mismatch: sales - expenses = 6117.00, reported 3250.00"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2017,opm_percentage,"reported=2867.0, calc=32.60","OPM mismatch: reported 2867.0%, calculated 32.60%"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2018,operating_profit,"sales=12746.0, exp=4696.0, op=4115.0","Operating profit mismatch: sales - expenses = 8050.00, reported 4115.00"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2018,opm_percentage,"reported=3935.0, calc=32.28","OPM mismatch: reported 3935.0%, calculated 32.28%"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2019,operating_profit,"sales=18487.0, exp=6723.0, op=5454.0","Operating profit mismatch: sales - expenses = 11764.00, reported 5454.00"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2019,opm_percentage,"reported=6310.0, calc=29.50","OPM mismatch: reported 6310.0%, calculated 29.50%"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2020,operating_profit,"sales=26374.0, exp=9608.0, op=9159.0","Operating profit mismatch: sales - expenses = 16766.00, reported 9159.00"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2020,opm_percentage,"reported=7608.0, calc=34.73","OPM mismatch: reported 7608.0%, calculated 34.73%"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2021,operating_profit,"sales=26673.0, exp=9519.0, op=10839.0","Operating profit mismatch: sales - expenses = 17154.00, reported 10839.00"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2021,opm_percentage,"reported=6314.0, calc=40.64","OPM mismatch: reported 6314.0%, calculated 40.64%"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2022,operating_profit,"sales=31641.0, exp=9855.0, op=11880.0","Operating profit mismatch: sales - expenses = 21786.00, reported 11880.00"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2022,opm_percentage,"reported=9906.0, calc=37.55","OPM mismatch: reported 9906.0%, calculated 37.55%"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2023,operating_profit,"sales=41411.0, exp=12701.0, op=12693.0","Operating profit mismatch: sales - expenses = 28710.00, reported 12693.00"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2023,opm_percentage,"reported=16018.0, calc=30.65","OPM mismatch: reported 16018.0%, calculated 30.65%"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2024,operating_profit,"sales=54972.0, exp=18886.0, op=16099.0","Operating profit mismatch: sales - expenses = 36086.00, reported 16099.00"
+DQ-12,WARNING,profitandloss,BAJFINANCE,Mar 2024,opm_percentage,"reported=19987.0, calc=29.29","OPM mismatch: reported 19987.0%, calculated 29.29%"
+DQ-12,WARNING,profitandloss,BAJFINANCE,TTM,operating_profit,"sales=62279.0, exp=21918.0, op=18943.0","Operating profit mismatch: sales - expenses = 40361.00, reported 18943.00"
+DQ-12,WARNING,profitandloss,BAJFINANCE,TTM,opm_percentage,"reported=21417.0, calc=30.42","OPM mismatch: reported 21417.0%, calculated 30.42%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2013,operating_profit,"sales=36442.0, exp=24486.0, op=10950.0","Operating profit mismatch: sales - expenses = 11956.00, reported 10950.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2013,opm_percentage,"reported=1006.0, calc=30.05","OPM mismatch: reported 1006.0%, calculated 30.05%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2014,operating_profit,"sales=40463.0, exp=27604.0, op=12049.0","Operating profit mismatch: sales - expenses = 12859.00, reported 12049.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2014,opm_percentage,"reported=809.0, calc=29.78","OPM mismatch: reported 809.0%, calculated 29.78%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2015,operating_profit,"sales=44915.0, exp=30547.0, op=13466.0","Operating profit mismatch: sales - expenses = 14368.00, reported 13466.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2015,opm_percentage,"reported=902.0, calc=29.98","OPM mismatch: reported 902.0%, calculated 29.98%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2016,operating_profit,"sales=45799.0, exp=32107.0, op=25391.0","Operating profit mismatch: sales - expenses = 13692.00, reported 25391.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2016,opm_percentage,"reported=-11700.0, calc=55.44","OPM mismatch: reported -11700.0%, calculated 55.44%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2017,operating_profit,"sales=44473.0, exp=29596.0, op=19250.0","Operating profit mismatch: sales - expenses = 14877.00, reported 19250.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2017,opm_percentage,"reported=-4372.0, calc=43.28","OPM mismatch: reported -4372.0%, calculated 43.28%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2018,operating_profit,"sales=46056.0, exp=29160.0, op=26093.0","Operating profit mismatch: sales - expenses = 16896.00, reported 26093.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2018,opm_percentage,"reported=-9197.0, calc=56.65","OPM mismatch: reported -9197.0%, calculated 56.65%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2019,operating_profit,"sales=52906.0, exp=32506.0, op=25815.0","Operating profit mismatch: sales - expenses = 20400.00, reported 25815.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2019,opm_percentage,"reported=-5414.0, calc=48.79","OPM mismatch: reported -5414.0%, calculated 48.79%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2020,operating_profit,"sales=78895.0, exp=50040.0, op=40583.0","Operating profit mismatch: sales - expenses = 28855.00, reported 40583.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2020,opm_percentage,"reported=-11728.0, calc=51.44","OPM mismatch: reported -11728.0%, calculated 51.44%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2021,operating_profit,"sales=74314.0, exp=43201.0, op=38070.0","Operating profit mismatch: sales - expenses = 31113.00, reported 38070.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2021,opm_percentage,"reported=-6957.0, calc=51.23","OPM mismatch: reported -6957.0%, calculated 51.23%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2022,operating_profit,"sales=73385.0, exp=38815.0, op=37518.0","Operating profit mismatch: sales - expenses = 34570.00, reported 37518.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2022,opm_percentage,"reported=-2948.0, calc=51.12","OPM mismatch: reported -2948.0%, calculated 51.12%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2023,operating_profit,"sales=94503.0, exp=49942.0, op=38231.0","Operating profit mismatch: sales - expenses = 44561.00, reported 38231.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2023,opm_percentage,"reported=6329.0, calc=40.45","OPM mismatch: reported 6329.0%, calculated 40.45%"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2024,operating_profit,"sales=118379.0, exp=69899.0, op=44379.0","Operating profit mismatch: sales - expenses = 48480.00, reported 44379.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,Mar 2024,opm_percentage,"reported=4102.0, calc=37.49","OPM mismatch: reported 4102.0%, calculated 37.49%"
+DQ-12,WARNING,profitandloss,BANKBARODA,TTM,operating_profit,"sales=124144.0, exp=74160.0, op=46459.0","Operating profit mismatch: sales - expenses = 49984.00, reported 46459.00"
+DQ-12,WARNING,profitandloss,BANKBARODA,TTM,opm_percentage,"reported=3526.0, calc=37.42","OPM mismatch: reported 3526.0%, calculated 37.42%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2013,operating_profit,"sales=34070.0, exp=26198.0, op=7217.0","Operating profit mismatch: sales - expenses = 7872.00, reported 7217.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2013,opm_percentage,"reported=655.0, calc=21.18","OPM mismatch: reported 655.0%, calculated 21.18%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2014,operating_profit,"sales=39570.0, exp=30606.0, op=9636.0","Operating profit mismatch: sales - expenses = 8964.00, reported 9636.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2014,opm_percentage,"reported=-672.0, calc=24.35","OPM mismatch: reported -672.0%, calculated 24.35%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2015,operating_profit,"sales=43813.0, exp=34133.0, op=10302.0","Operating profit mismatch: sales - expenses = 9680.00, reported 10302.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2015,opm_percentage,"reported=-621.0, calc=23.51","OPM mismatch: reported -621.0%, calculated 23.51%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2016,operating_profit,"sales=44039.0, exp=34263.0, op=17785.0","Operating profit mismatch: sales - expenses = 9776.00, reported 17785.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2016,opm_percentage,"reported=-8008.0, calc=40.38","OPM mismatch: reported -8008.0%, calculated 40.38%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2017,operating_profit,"sales=41457.0, exp=31540.0, op=15691.0","Operating profit mismatch: sales - expenses = 9917.00, reported 15691.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2017,opm_percentage,"reported=-5775.0, calc=37.85","OPM mismatch: reported -5775.0%, calculated 37.85%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2018,operating_profit,"sales=41345.0, exp=29113.0, op=25582.0","Operating profit mismatch: sales - expenses = 12232.00, reported 25582.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2018,opm_percentage,"reported=-13350.0, calc=61.87","OPM mismatch: reported -13350.0%, calculated 61.87%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2019,operating_profit,"sales=47951.0, exp=32339.0, op=27202.0","Operating profit mismatch: sales - expenses = 15612.00, reported 27202.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2019,opm_percentage,"reported=-11590.0, calc=56.73","OPM mismatch: reported -11590.0%, calculated 56.73%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2020,operating_profit,"sales=49759.0, exp=35817.0, op=26809.0","Operating profit mismatch: sales - expenses = 13942.00, reported 26809.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2020,opm_percentage,"reported=-12867.0, calc=53.88","OPM mismatch: reported -12867.0%, calculated 53.88%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2021,operating_profit,"sales=70253.0, exp=45182.0, op=43437.0","Operating profit mismatch: sales - expenses = 25071.00, reported 43437.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2021,opm_percentage,"reported=-18367.0, calc=61.83","OPM mismatch: reported -18367.0%, calculated 61.83%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2022,operating_profit,"sales=70614.0, exp=43035.0, op=41235.0","Operating profit mismatch: sales - expenses = 27579.00, reported 41235.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2022,opm_percentage,"reported=-13657.0, calc=58.39","OPM mismatch: reported -13657.0%, calculated 58.39%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2023,operating_profit,"sales=85885.0, exp=52990.0, op=42772.0","Operating profit mismatch: sales - expenses = 32895.00, reported 42772.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2023,opm_percentage,"reported=-9877.0, calc=49.80","OPM mismatch: reported -9877.0%, calculated 49.80%"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2024,operating_profit,"sales=110519.0, exp=72118.0, op=46146.0","Operating profit mismatch: sales - expenses = 38401.00, reported 46146.00"
+DQ-12,WARNING,profitandloss,CANBK,Mar 2024,opm_percentage,"reported=-7745.0, calc=41.75","OPM mismatch: reported -7745.0%, calculated 41.75%"
+DQ-12,WARNING,profitandloss,CANBK,TTM,operating_profit,"sales=119392.0, exp=80351.0, op=48026.0","Operating profit mismatch: sales - expenses = 39041.00, reported 48026.00"
+DQ-12,WARNING,profitandloss,CANBK,TTM,opm_percentage,"reported=-8985.0, calc=40.23","OPM mismatch: reported -8985.0%, calculated 40.23%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2013,operating_profit,"sales=2570.0, exp=1410.0, op=688.0","Operating profit mismatch: sales - expenses = 1160.00, reported 688.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2013,opm_percentage,"reported=472.0, calc=26.77","OPM mismatch: reported 472.0%, calculated 26.77%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2014,operating_profit,"sales=3279.0, exp=1769.0, op=932.0","Operating profit mismatch: sales - expenses = 1510.00, reported 932.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2014,opm_percentage,"reported=578.0, calc=28.42","OPM mismatch: reported 578.0%, calculated 28.42%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2015,operating_profit,"sales=3715.0, exp=1958.0, op=1061.0","Operating profit mismatch: sales - expenses = 1757.00, reported 1061.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2015,opm_percentage,"reported=696.0, calc=28.56","OPM mismatch: reported 696.0%, calculated 28.56%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2016,operating_profit,"sales=4214.0, exp=2048.0, op=1266.0","Operating profit mismatch: sales - expenses = 2166.00, reported 1266.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2016,opm_percentage,"reported=899.0, calc=30.04","OPM mismatch: reported 899.0%, calculated 30.04%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2017,operating_profit,"sales=4694.0, exp=2228.0, op=1322.0","Operating profit mismatch: sales - expenses = 2466.00, reported 1322.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2017,opm_percentage,"reported=1143.0, calc=28.16","OPM mismatch: reported 1143.0%, calculated 28.16%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2018,operating_profit,"sales=5559.0, exp=2657.0, op=1451.0","Operating profit mismatch: sales - expenses = 2902.00, reported 1451.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2018,opm_percentage,"reported=1451.0, calc=26.10","OPM mismatch: reported 1451.0%, calculated 26.10%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2019,operating_profit,"sales=7108.0, exp=3588.0, op=1632.0","Operating profit mismatch: sales - expenses = 3520.00, reported 1632.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2019,opm_percentage,"reported=1888.0, calc=22.96","OPM mismatch: reported 1888.0%, calculated 22.96%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2020,operating_profit,"sales=8712.0, exp=4592.0, op=2421.0","Operating profit mismatch: sales - expenses = 4120.00, reported 2421.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2020,opm_percentage,"reported=1699.0, calc=27.79","OPM mismatch: reported 1699.0%, calculated 27.79%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2021,operating_profit,"sales=9583.0, exp=4576.0, op=2913.0","Operating profit mismatch: sales - expenses = 5007.00, reported 2913.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2021,opm_percentage,"reported=2094.0, calc=30.40","OPM mismatch: reported 2094.0%, calculated 30.40%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2022,operating_profit,"sales=10148.0, exp=4298.0, op=2926.0","Operating profit mismatch: sales - expenses = 5850.00, reported 2926.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2022,opm_percentage,"reported=2924.0, calc=28.83","OPM mismatch: reported 2924.0%, calculated 28.83%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2023,operating_profit,"sales=12884.0, exp=5748.0, op=3621.0","Operating profit mismatch: sales - expenses = 7136.00, reported 3621.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2023,opm_percentage,"reported=3515.0, calc=28.10","OPM mismatch: reported 3515.0%, calculated 28.10%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2024,operating_profit,"sales=19163.0, exp=9231.0, op=5385.0","Operating profit mismatch: sales - expenses = 9932.00, reported 5385.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,Mar 2024,opm_percentage,"reported=4548.0, calc=28.10","OPM mismatch: reported 4548.0%, calculated 28.10%"
+DQ-12,WARNING,profitandloss,CHOLAFIN,TTM,operating_profit,"sales=22502.0, exp=10875.0, op=6452.0","Operating profit mismatch: sales - expenses = 11627.00, reported 6452.00"
+DQ-12,WARNING,profitandloss,CHOLAFIN,TTM,opm_percentage,"reported=5175.0, calc=28.67","OPM mismatch: reported 5175.0%, calculated 28.67%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2013,operating_profit,"sales=8279.0, exp=34.0, op=6065.0","Operating profit mismatch: sales - expenses = 8245.00, reported 6065.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2013,opm_percentage,"reported=2214.0, calc=73.26","OPM mismatch: reported 2214.0%, calculated 73.26%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2014,operating_profit,"sales=10173.0, exp=146.0, op=8026.0","Operating profit mismatch: sales - expenses = 10027.00, reported 8026.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2014,opm_percentage,"reported=2147.0, calc=78.90","OPM mismatch: reported 2147.0%, calculated 78.90%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2015,operating_profit,"sales=11345.0, exp=168.0, op=9183.0","Operating profit mismatch: sales - expenses = 11177.00, reported 9183.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2015,opm_percentage,"reported=2163.0, calc=80.94","OPM mismatch: reported 2163.0%, calculated 80.94%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2016,operating_profit,"sales=13790.0, exp=207.0, op=11310.0","Operating profit mismatch: sales - expenses = 13583.00, reported 11310.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2016,opm_percentage,"reported=2480.0, calc=82.02","OPM mismatch: reported 2480.0%, calculated 82.02%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2017,operating_profit,"sales=14394.0, exp=159.0, op=11898.0","Operating profit mismatch: sales - expenses = 14235.00, reported 11898.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2017,opm_percentage,"reported=2496.0, calc=82.66","OPM mismatch: reported 2496.0%, calculated 82.66%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2018,operating_profit,"sales=15156.0, exp=114.0, op=12329.0","Operating profit mismatch: sales - expenses = 15042.00, reported 12329.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2018,opm_percentage,"reported=2826.0, calc=81.35","OPM mismatch: reported 2826.0%, calculated 81.35%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2019,operating_profit,"sales=16362.0, exp=168.0, op=13265.0","Operating profit mismatch: sales - expenses = 16194.00, reported 13265.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2019,opm_percentage,"reported=3097.0, calc=81.07","OPM mismatch: reported 3097.0%, calculated 81.07%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2020,operating_profit,"sales=17132.0, exp=197.0, op=13926.0","Operating profit mismatch: sales - expenses = 16935.00, reported 13926.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2020,opm_percentage,"reported=3206.0, calc=81.29","OPM mismatch: reported 3206.0%, calculated 81.29%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2021,operating_profit,"sales=19160.0, exp=161.0, op=14907.0","Operating profit mismatch: sales - expenses = 18999.00, reported 14907.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2021,opm_percentage,"reported=4252.0, calc=77.80","OPM mismatch: reported 4252.0%, calculated 77.80%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2022,operating_profit,"sales=21763.0, exp=106.0, op=17211.0","Operating profit mismatch: sales - expenses = 21657.00, reported 17211.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2022,opm_percentage,"reported=4553.0, calc=79.08","OPM mismatch: reported 4553.0%, calculated 79.08%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2023,operating_profit,"sales=22753.0, exp=110.0, op=17726.0","Operating profit mismatch: sales - expenses = 22643.00, reported 17726.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2023,opm_percentage,"reported=5027.0, calc=77.91","OPM mismatch: reported 5027.0%, calculated 77.91%"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2024,operating_profit,"sales=25774.0, exp=90.0, op=19483.0","Operating profit mismatch: sales - expenses = 25684.00, reported 19483.00"
+DQ-12,WARNING,profitandloss,CIPLA,Mar 2024,opm_percentage,"reported=6291.0, calc=75.59","OPM mismatch: reported 6291.0%, calculated 75.59%"
+DQ-12,WARNING,profitandloss,CIPLA,TTM,operating_profit,"sales=26981.0, exp=66.0, op=20075.0","Operating profit mismatch: sales - expenses = 26915.00, reported 20075.00"
+DQ-12,WARNING,profitandloss,CIPLA,TTM,opm_percentage,"reported=6906.0, calc=74.40","OPM mismatch: reported 6906.0%, calculated 74.40%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2013,operating_profit,"sales=68303.0, exp=46.0, op=50216.0","Operating profit mismatch: sales - expenses = 68257.00, reported 50216.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2013,opm_percentage,"reported=18087.0, calc=73.52","OPM mismatch: reported 18087.0%, calculated 73.52%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2014,operating_profit,"sales=70608.0, exp=59.0, op=52842.0","Operating profit mismatch: sales - expenses = 70549.00, reported 52842.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2014,opm_percentage,"reported=17766.0, calc=74.84","OPM mismatch: reported 17766.0%, calculated 74.84%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2015,operating_profit,"sales=74120.0, exp=9.0, op=56777.0","Operating profit mismatch: sales - expenses = 74111.00, reported 56777.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2015,opm_percentage,"reported=17343.0, calc=76.60","OPM mismatch: reported 17343.0%, calculated 76.60%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2016,operating_profit,"sales=77861.0, exp=388.0, op=59147.0","Operating profit mismatch: sales - expenses = 77473.00, reported 59147.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2016,opm_percentage,"reported=18714.0, calc=75.96","OPM mismatch: reported 18714.0%, calculated 75.96%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2017,operating_profit,"sales=78164.0, exp=410.0, op=65716.0","Operating profit mismatch: sales - expenses = 77754.00, reported 65716.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2017,opm_percentage,"reported=12448.0, calc=84.07","OPM mismatch: reported 12448.0%, calculated 84.07%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2018,operating_profit,"sales=85244.0, exp=430.0, op=75956.0","Operating profit mismatch: sales - expenses = 84814.00, reported 75956.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2018,opm_percentage,"reported=9288.0, calc=89.10","OPM mismatch: reported 9288.0%, calculated 89.10%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2019,operating_profit,"sales=99586.0, exp=264.0, op=74579.0","Operating profit mismatch: sales - expenses = 99322.00, reported 74579.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2019,opm_percentage,"reported=25007.0, calc=74.89","OPM mismatch: reported 25007.0%, calculated 74.89%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2020,operating_profit,"sales=96080.0, exp=503.0, op=74500.0","Operating profit mismatch: sales - expenses = 95577.00, reported 74500.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2020,opm_percentage,"reported=21581.0, calc=77.54","OPM mismatch: reported 21581.0%, calculated 77.54%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2021,operating_profit,"sales=90026.0, exp=642.0, op=71398.0","Operating profit mismatch: sales - expenses = 89384.00, reported 71398.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2021,opm_percentage,"reported=18628.0, calc=79.31","OPM mismatch: reported 18628.0%, calculated 79.31%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2022,operating_profit,"sales=109715.0, exp=541.0, op=84995.0","Operating profit mismatch: sales - expenses = 109174.00, reported 84995.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2022,opm_percentage,"reported=24721.0, calc=77.47","OPM mismatch: reported 24721.0%, calculated 77.47%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2023,operating_profit,"sales=138252.0, exp=684.0, op=94020.0","Operating profit mismatch: sales - expenses = 137568.00, reported 94020.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2023,opm_percentage,"reported=44232.0, calc=68.01","OPM mismatch: reported 44232.0%, calculated 68.01%"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2024,operating_profit,"sales=142324.0, exp=819.0, op=94352.0","Operating profit mismatch: sales - expenses = 141505.00, reported 94352.00"
+DQ-12,WARNING,profitandloss,COALINDIA,Mar 2024,opm_percentage,"reported=47971.0, calc=66.29","OPM mismatch: reported 47971.0%, calculated 66.29%"
+DQ-12,WARNING,profitandloss,COALINDIA,TTM,operating_profit,"sales=140328.0, exp=875.0, op=93717.0","Operating profit mismatch: sales - expenses = 139453.00, reported 93717.00"
+DQ-12,WARNING,profitandloss,COALINDIA,TTM,opm_percentage,"reported=46610.0, calc=66.78","OPM mismatch: reported 46610.0%, calculated 66.78%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2013,operating_profit,"sales=35861.0, exp=19695.0, op=12631.0","Operating profit mismatch: sales - expenses = 16166.00, reported 12631.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2013,opm_percentage,"reported=3534.0, calc=35.22","OPM mismatch: reported 3534.0%, calculated 35.22%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2014,operating_profit,"sales=42555.0, exp=23445.0, op=13508.0","Operating profit mismatch: sales - expenses = 19110.00, reported 13508.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2014,opm_percentage,"reported=5602.0, calc=31.74","OPM mismatch: reported 5602.0%, calculated 31.74%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2015,operating_profit,"sales=50666.0, exp=27288.0, op=16164.0","Operating profit mismatch: sales - expenses = 23378.00, reported 16164.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2015,opm_percentage,"reported=7214.0, calc=31.90","OPM mismatch: reported 7214.0%, calculated 31.90%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2016,operating_profit,"sales=63162.0, exp=34070.0, op=20055.0","Operating profit mismatch: sales - expenses = 29092.00, reported 20055.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2016,opm_percentage,"reported=9037.0, calc=31.75","OPM mismatch: reported 9037.0%, calculated 31.75%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2017,operating_profit,"sales=73271.0, exp=38042.0, op=23856.0","Operating profit mismatch: sales - expenses = 35229.00, reported 23856.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2017,opm_percentage,"reported=11374.0, calc=32.56","OPM mismatch: reported 11374.0%, calculated 32.56%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2018,operating_profit,"sales=85288.0, exp=42381.0, op=29532.0","Operating profit mismatch: sales - expenses = 42907.00, reported 29532.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2018,opm_percentage,"reported=13374.0, calc=34.63","OPM mismatch: reported 13374.0%, calculated 34.63%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2019,operating_profit,"sales=105161.0, exp=53713.0, op=34856.0","Operating profit mismatch: sales - expenses = 51448.00, reported 34856.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2019,opm_percentage,"reported=16592.0, calc=33.15","OPM mismatch: reported 16592.0%, calculated 33.15%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2020,operating_profit,"sales=122189.0, exp=62137.0, op=45459.0","Operating profit mismatch: sales - expenses = 60052.00, reported 45459.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2020,opm_percentage,"reported=14593.0, calc=37.20","OPM mismatch: reported 14593.0%, calculated 37.20%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2021,operating_profit,"sales=128552.0, exp=59248.0, op=52457.0","Operating profit mismatch: sales - expenses = 69304.00, reported 52457.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2021,opm_percentage,"reported=16848.0, calc=40.81","OPM mismatch: reported 16848.0%, calculated 40.81%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2022,operating_profit,"sales=135936.0, exp=58584.0, op=56557.0","Operating profit mismatch: sales - expenses = 77352.00, reported 56557.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2022,opm_percentage,"reported=20795.0, calc=41.61","OPM mismatch: reported 20795.0%, calculated 41.61%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2023,operating_profit,"sales=170754.0, exp=77780.0, op=63042.0","Operating profit mismatch: sales - expenses = 92974.00, reported 63042.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2023,opm_percentage,"reported=29932.0, calc=36.92","OPM mismatch: reported 29932.0%, calculated 36.92%"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2024,operating_profit,"sales=283649.0, exp=154139.0, op=174196.0","Operating profit mismatch: sales - expenses = 129510.00, reported 174196.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,Mar 2024,opm_percentage,"reported=-44685.0, calc=61.41","OPM mismatch: reported -44685.0%, calculated 61.41%"
+DQ-12,WARNING,profitandloss,HDFCBANK,TTM,operating_profit,"sales=329022.0, exp=180600.0, op=206009.0","Operating profit mismatch: sales - expenses = 148422.00, reported 206009.00"
+DQ-12,WARNING,profitandloss,HDFCBANK,TTM,opm_percentage,"reported=-57587.0, calc=62.61","OPM mismatch: reported -57587.0%, calculated 62.61%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2013,operating_profit,"sales=14060.0, exp=15.0, op=13535.0","Operating profit mismatch: sales - expenses = 14045.00, reported 13535.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2013,opm_percentage,"reported=525.0, calc=96.27","OPM mismatch: reported 525.0%, calculated 96.27%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2014,operating_profit,"sales=17166.0, exp=11.0, op=16561.0","Operating profit mismatch: sales - expenses = 17155.00, reported 16561.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2014,opm_percentage,"reported=605.0, calc=96.48","OPM mismatch: reported 605.0%, calculated 96.48%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2015,operating_profit,"sales=27215.0, exp=-14.0, op=26341.0","Operating profit mismatch: sales - expenses = 27229.00, reported 26341.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2015,opm_percentage,"reported=874.0, calc=96.79","OPM mismatch: reported 874.0%, calculated 96.79%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2016,operating_profit,"sales=18141.0, exp=8.0, op=17187.0","Operating profit mismatch: sales - expenses = 18133.00, reported 17187.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2016,opm_percentage,"reported=953.0, calc=94.74","OPM mismatch: reported 953.0%, calculated 94.74%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2017,operating_profit,"sales=30647.0, exp=9.0, op=29674.0","Operating profit mismatch: sales - expenses = 30638.00, reported 29674.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2017,opm_percentage,"reported=972.0, calc=96.83","OPM mismatch: reported 972.0%, calculated 96.83%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2018,operating_profit,"sales=32260.0, exp=11.0, op=31186.0","Operating profit mismatch: sales - expenses = 32249.00, reported 31186.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2018,opm_percentage,"reported=1074.0, calc=96.67","OPM mismatch: reported 1074.0%, calculated 96.67%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2019,operating_profit,"sales=38855.0, exp=14.0, op=37640.0","Operating profit mismatch: sales - expenses = 38841.00, reported 37640.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2019,opm_percentage,"reported=1215.0, calc=96.87","OPM mismatch: reported 1215.0%, calculated 96.87%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2020,operating_profit,"sales=29380.0, exp=0.0, op=28239.0","Operating profit mismatch: sales - expenses = 29380.00, reported 28239.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2020,opm_percentage,"reported=1141.0, calc=96.12","OPM mismatch: reported 1141.0%, calculated 96.12%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2021,operating_profit,"sales=71528.0, exp=0.0, op=70294.0","Operating profit mismatch: sales - expenses = 71528.00, reported 70294.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2021,opm_percentage,"reported=1235.0, calc=98.27","OPM mismatch: reported 1235.0%, calculated 98.27%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2022,operating_profit,"sales=67126.0, exp=0.0, op=66348.0","Operating profit mismatch: sales - expenses = 67126.00, reported 66348.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2022,opm_percentage,"reported=778.0, calc=98.84","OPM mismatch: reported 778.0%, calculated 98.84%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2023,operating_profit,"sales=70207.0, exp=0.0, op=70127.0","Operating profit mismatch: sales - expenses = 70207.00, reported 70127.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2023,opm_percentage,"reported=80.0, calc=99.89","OPM mismatch: reported 80.0%, calculated 99.89%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2024,operating_profit,"sales=101482.0, exp=0.0, op=100951.0","Operating profit mismatch: sales - expenses = 101482.00, reported 100951.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,Mar 2024,opm_percentage,"reported=531.0, calc=99.48","OPM mismatch: reported 531.0%, calculated 99.48%"
+DQ-12,WARNING,profitandloss,HDFCLIFE,TTM,operating_profit,"sales=100772.0, exp=0.0, op=100048.0","Operating profit mismatch: sales - expenses = 100772.00, reported 100048.00"
+DQ-12,WARNING,profitandloss,HDFCLIFE,TTM,opm_percentage,"reported=725.0, calc=99.28","OPM mismatch: reported 725.0%, calculated 99.28%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2014,operating_profit,"sales=25275.0, exp=12.0, op=21722.0","Operating profit mismatch: sales - expenses = 25263.00, reported 21722.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2014,opm_percentage,"reported=3553.0, calc=85.94","OPM mismatch: reported 3553.0%, calculated 85.94%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2015,operating_profit,"sales=27538.0, exp=12.0, op=24018.0","Operating profit mismatch: sales - expenses = 27526.00, reported 24018.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2015,opm_percentage,"reported=3520.0, calc=87.22","OPM mismatch: reported 3520.0%, calculated 87.22%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2016,operating_profit,"sales=28457.0, exp=15.0, op=24033.0","Operating profit mismatch: sales - expenses = 28442.00, reported 24033.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2016,opm_percentage,"reported=4424.0, calc=84.45","OPM mismatch: reported 4424.0%, calculated 84.45%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2017,operating_profit,"sales=28610.0, exp=27.0, op=24025.0","Operating profit mismatch: sales - expenses = 28583.00, reported 24025.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2017,opm_percentage,"reported=4585.0, calc=83.97","OPM mismatch: reported 4585.0%, calculated 83.97%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2018,operating_profit,"sales=32458.0, exp=31.0, op=27124.0","Operating profit mismatch: sales - expenses = 32427.00, reported 27124.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2018,opm_percentage,"reported=5334.0, calc=83.57","OPM mismatch: reported 5334.0%, calculated 83.57%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2019,operating_profit,"sales=33971.0, exp=37.0, op=28946.0","Operating profit mismatch: sales - expenses = 33934.00, reported 28946.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2019,opm_percentage,"reported=5025.0, calc=85.21","OPM mismatch: reported 5025.0%, calculated 85.21%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2020,operating_profit,"sales=29254.0, exp=47.0, op=25184.0","Operating profit mismatch: sales - expenses = 29207.00, reported 25184.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2020,opm_percentage,"reported=4070.0, calc=86.09","OPM mismatch: reported 4070.0%, calculated 86.09%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2021,operating_profit,"sales=30959.0, exp=46.0, op=26902.0","Operating profit mismatch: sales - expenses = 30913.00, reported 26902.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2021,opm_percentage,"reported=4058.0, calc=86.90","OPM mismatch: reported 4058.0%, calculated 86.90%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2022,operating_profit,"sales=29551.0, exp=53.0, op=26295.0","Operating profit mismatch: sales - expenses = 29498.00, reported 26295.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2022,opm_percentage,"reported=3256.0, calc=88.98","OPM mismatch: reported 3256.0%, calculated 88.98%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2023,operating_profit,"sales=34158.0, exp=105.0, op=30060.0","Operating profit mismatch: sales - expenses = 34053.00, reported 30060.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2023,opm_percentage,"reported=4099.0, calc=88.00","OPM mismatch: reported 4099.0%, calculated 88.00%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2024,operating_profit,"sales=37789.0, exp=76.0, op=32554.0","Operating profit mismatch: sales - expenses = 37713.00, reported 32554.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,Mar 2024,opm_percentage,"reported=5235.0, calc=86.15","OPM mismatch: reported 5235.0%, calculated 86.15%"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,TTM,operating_profit,"sales=40098.0, exp=68.0, op=34537.0","Operating profit mismatch: sales - expenses = 40030.00, reported 34537.00"
+DQ-12,WARNING,profitandloss,HEROMOTOCO,TTM,opm_percentage,"reported=5561.0, calc=86.13","OPM mismatch: reported 5561.0%, calculated 86.13%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2013,operating_profit,"sales=80193.0, exp=2079.0, op=72494.0","Operating profit mismatch: sales - expenses = 78114.00, reported 72494.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2013,opm_percentage,"reported=7699.0, calc=90.40","OPM mismatch: reported 7699.0%, calculated 90.40%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2014,operating_profit,"sales=87695.0, exp=2702.0, op=79671.0","Operating profit mismatch: sales - expenses = 84993.00, reported 79671.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2014,opm_percentage,"reported=8024.0, calc=90.85","OPM mismatch: reported 8024.0%, calculated 90.85%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2015,operating_profit,"sales=104281.0, exp=4178.0, op=95437.0","Operating profit mismatch: sales - expenses = 100103.00, reported 95437.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2015,opm_percentage,"reported=8844.0, calc=91.52","OPM mismatch: reported 8844.0%, calculated 91.52%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2016,operating_profit,"sales=98759.0, exp=5134.0, op=90981.0","Operating profit mismatch: sales - expenses = 93625.00, reported 90981.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2016,opm_percentage,"reported=7778.0, calc=92.12","OPM mismatch: reported 7778.0%, calculated 92.12%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2017,operating_profit,"sales=100184.0, exp=5742.0, op=87867.0","Operating profit mismatch: sales - expenses = 94442.00, reported 87867.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2017,opm_percentage,"reported=12317.0, calc=87.71","OPM mismatch: reported 12317.0%, calculated 87.71%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2018,operating_profit,"sales=115183.0, exp=3911.0, op=101488.0","Operating profit mismatch: sales - expenses = 111272.00, reported 101488.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2018,opm_percentage,"reported=13695.0, calc=88.11","OPM mismatch: reported 13695.0%, calculated 88.11%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2019,operating_profit,"sales=130542.0, exp=3778.0, op=115031.0","Operating profit mismatch: sales - expenses = 126764.00, reported 115031.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2019,opm_percentage,"reported=15511.0, calc=88.12","OPM mismatch: reported 15511.0%, calculated 88.12%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2020,operating_profit,"sales=118144.0, exp=4197.0, op=103838.0","Operating profit mismatch: sales - expenses = 113947.00, reported 103838.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2020,opm_percentage,"reported=14306.0, calc=87.89","OPM mismatch: reported 14306.0%, calculated 87.89%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2021,operating_profit,"sales=132008.0, exp=3738.0, op=114449.0","Operating profit mismatch: sales - expenses = 128270.00, reported 114449.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2021,opm_percentage,"reported=17559.0, calc=86.70","OPM mismatch: reported 17559.0%, calculated 86.70%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2022,operating_profit,"sales=195059.0, exp=3768.0, op=166712.0","Operating profit mismatch: sales - expenses = 191291.00, reported 166712.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2022,opm_percentage,"reported=28347.0, calc=85.47","OPM mismatch: reported 28347.0%, calculated 85.47%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2023,operating_profit,"sales=223202.0, exp=3646.0, op=200536.0","Operating profit mismatch: sales - expenses = 219556.00, reported 200536.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2023,opm_percentage,"reported=22666.0, calc=89.85","OPM mismatch: reported 22666.0%, calculated 89.85%"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2024,operating_profit,"sales=215962.0, exp=3858.0, op=192090.0","Operating profit mismatch: sales - expenses = 212104.00, reported 192090.00"
+DQ-12,WARNING,profitandloss,HINDALCO,Mar 2024,opm_percentage,"reported=23872.0, calc=88.95","OPM mismatch: reported 23872.0%, calculated 88.95%"
+DQ-12,WARNING,profitandloss,HINDALCO,TTM,operating_profit,"sales=224018.0, exp=3560.0, op=196087.0","Operating profit mismatch: sales - expenses = 220458.00, reported 196087.00"
+DQ-12,WARNING,profitandloss,HINDALCO,TTM,opm_percentage,"reported=27931.0, calc=87.53","OPM mismatch: reported 27931.0%, calculated 87.53%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2013,operating_profit,"sales=27004.0, exp=26.0, op=22784.0","Operating profit mismatch: sales - expenses = 26978.00, reported 22784.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2013,opm_percentage,"reported=4220.0, calc=84.37","OPM mismatch: reported 4220.0%, calculated 84.37%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2014,operating_profit,"sales=29234.0, exp=41.0, op=24475.0","Operating profit mismatch: sales - expenses = 29193.00, reported 24475.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2014,opm_percentage,"reported=4759.0, calc=83.72","OPM mismatch: reported 4759.0%, calculated 83.72%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2015,operating_profit,"sales=31972.0, exp=18.0, op=26560.0","Operating profit mismatch: sales - expenses = 31954.00, reported 26560.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2015,opm_percentage,"reported=5412.0, calc=83.07","OPM mismatch: reported 5412.0%, calculated 83.07%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2016,operating_profit,"sales=32186.0, exp=17.0, op=26276.0","Operating profit mismatch: sales - expenses = 32169.00, reported 26276.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2016,opm_percentage,"reported=5910.0, calc=81.64","OPM mismatch: reported 5910.0%, calculated 81.64%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2017,operating_profit,"sales=33162.0, exp=35.0, op=26834.0","Operating profit mismatch: sales - expenses = 33127.00, reported 26834.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2017,opm_percentage,"reported=6328.0, calc=80.92","OPM mismatch: reported 6328.0%, calculated 80.92%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2018,operating_profit,"sales=35545.0, exp=26.0, op=28046.0","Operating profit mismatch: sales - expenses = 35519.00, reported 28046.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2018,opm_percentage,"reported=7499.0, calc=78.90","OPM mismatch: reported 7499.0%, calculated 78.90%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2019,operating_profit,"sales=39310.0, exp=33.0, op=30430.0","Operating profit mismatch: sales - expenses = 39277.00, reported 30430.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2019,opm_percentage,"reported=8880.0, calc=77.41","OPM mismatch: reported 8880.0%, calculated 77.41%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2020,operating_profit,"sales=39783.0, exp=118.0, op=29922.0","Operating profit mismatch: sales - expenses = 39665.00, reported 29922.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2020,opm_percentage,"reported=9861.0, calc=75.21","OPM mismatch: reported 9861.0%, calculated 75.21%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2021,operating_profit,"sales=47028.0, exp=117.0, op=35402.0","Operating profit mismatch: sales - expenses = 46911.00, reported 35402.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2021,opm_percentage,"reported=11626.0, calc=75.28","OPM mismatch: reported 11626.0%, calculated 75.28%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2022,operating_profit,"sales=52446.0, exp=106.0, op=39589.0","Operating profit mismatch: sales - expenses = 52340.00, reported 39589.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2022,opm_percentage,"reported=12857.0, calc=75.49","OPM mismatch: reported 12857.0%, calculated 75.49%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2023,operating_profit,"sales=60580.0, exp=114.0, op=46433.0","Operating profit mismatch: sales - expenses = 60466.00, reported 46433.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2023,opm_percentage,"reported=14147.0, calc=76.65","OPM mismatch: reported 14147.0%, calculated 76.65%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2024,operating_profit,"sales=61896.0, exp=334.0, op=47237.0","Operating profit mismatch: sales - expenses = 61562.00, reported 47237.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,Mar 2024,opm_percentage,"reported=14659.0, calc=76.32","OPM mismatch: reported 14659.0%, calculated 76.32%"
+DQ-12,WARNING,profitandloss,HINDUNILVR,TTM,operating_profit,"sales=62661.0, exp=420.0, op=47902.0","Operating profit mismatch: sales - expenses = 62241.00, reported 47902.00"
+DQ-12,WARNING,profitandloss,HINDUNILVR,TTM,opm_percentage,"reported=14759.0, calc=76.45","OPM mismatch: reported 14759.0%, calculated 76.45%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2013,operating_profit,"sales=44885.0, exp=28285.0, op=31684.0","Operating profit mismatch: sales - expenses = 16600.00, reported 31684.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2013,opm_percentage,"reported=-15085.0, calc=70.59","OPM mismatch: reported -15085.0%, calculated 70.59%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2014,operating_profit,"sales=49479.0, exp=29711.0, op=32852.0","Operating profit mismatch: sales - expenses = 19768.00, reported 32852.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2014,opm_percentage,"reported=-13084.0, calc=66.40","OPM mismatch: reported -13084.0%, calculated 66.40%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2015,operating_profit,"sales=54964.0, exp=32318.0, op=38766.0","Operating profit mismatch: sales - expenses = 22646.00, reported 38766.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2015,opm_percentage,"reported=-16120.0, calc=70.53","OPM mismatch: reported -16120.0%, calculated 70.53%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2016,operating_profit,"sales=59294.0, exp=33996.0, op=52252.0","Operating profit mismatch: sales - expenses = 25298.00, reported 52252.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2016,opm_percentage,"reported=-26955.0, calc=88.12","OPM mismatch: reported -26955.0%, calculated 88.12%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2017,operating_profit,"sales=60940.0, exp=34836.0, op=63841.0","Operating profit mismatch: sales - expenses = 26104.00, reported 63841.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2017,opm_percentage,"reported=-37737.0, calc=104.76","OPM mismatch: reported -37737.0%, calculated 104.76%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2018,operating_profit,"sales=62162.0, exp=34262.0, op=72806.0","Operating profit mismatch: sales - expenses = 27900.00, reported 72806.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2018,opm_percentage,"reported=-44906.0, calc=117.12","OPM mismatch: reported -44906.0%, calculated 117.12%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2019,operating_profit,"sales=71982.0, exp=39178.0, op=83775.0","Operating profit mismatch: sales - expenses = 32804.00, reported 83775.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2019,opm_percentage,"reported=-50971.0, calc=116.38","OPM mismatch: reported -50971.0%, calculated 116.38%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2020,operating_profit,"sales=84836.0, exp=44666.0, op=85361.0","Operating profit mismatch: sales - expenses = 40170.00, reported 85361.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2020,opm_percentage,"reported=-45190.0, calc=100.62","OPM mismatch: reported -45190.0%, calculated 100.62%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2021,operating_profit,"sales=89163.0, exp=42659.0, op=91309.0","Operating profit mismatch: sales - expenses = 46504.00, reported 91309.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2021,opm_percentage,"reported=-44805.0, calc=102.41","OPM mismatch: reported -44805.0%, calculated 102.41%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2022,operating_profit,"sales=95407.0, exp=41167.0, op=80798.0","Operating profit mismatch: sales - expenses = 54240.00, reported 80798.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2022,opm_percentage,"reported=-26558.0, calc=84.69","OPM mismatch: reported -26558.0%, calculated 84.69%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2023,operating_profit,"sales=121067.0, exp=50543.0, op=87864.0","Operating profit mismatch: sales - expenses = 70524.00, reported 87864.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2023,opm_percentage,"reported=-17341.0, calc=72.57","OPM mismatch: reported -17341.0%, calculated 72.57%"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2024,operating_profit,"sales=159516.0, exp=74108.0, op=99560.0","Operating profit mismatch: sales - expenses = 85408.00, reported 99560.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,Mar 2024,opm_percentage,"reported=-14152.0, calc=62.41","OPM mismatch: reported -14152.0%, calculated 62.41%"
+DQ-12,WARNING,profitandloss,ICICIBANK,TTM,operating_profit,"sales=180551.0, exp=86404.0, op=125722.0","Operating profit mismatch: sales - expenses = 94147.00, reported 125722.00"
+DQ-12,WARNING,profitandloss,ICICIBANK,TTM,opm_percentage,"reported=-31575.0, calc=69.63","OPM mismatch: reported -31575.0%, calculated 69.63%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2013,operating_profit,"sales=4012.0, exp=8.0, op=4191.0","Operating profit mismatch: sales - expenses = 4004.00, reported 4191.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2013,opm_percentage,"reported=-178.0, calc=104.46","OPM mismatch: reported -178.0%, calculated 104.46%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2014,operating_profit,"sales=4352.0, exp=9.0, op=4578.0","Operating profit mismatch: sales - expenses = 4343.00, reported 4578.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2014,opm_percentage,"reported=-225.0, calc=105.19","OPM mismatch: reported -225.0%, calculated 105.19%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2015,operating_profit,"sales=4234.0, exp=12.0, op=4456.0","Operating profit mismatch: sales - expenses = 4222.00, reported 4456.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2015,opm_percentage,"reported=-221.0, calc=105.24","OPM mismatch: reported -221.0%, calculated 105.24%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2016,operating_profit,"sales=6033.0, exp=0.0, op=5269.0","Operating profit mismatch: sales - expenses = 6033.00, reported 5269.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2016,opm_percentage,"reported=764.0, calc=87.34","OPM mismatch: reported 764.0%, calculated 87.34%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2017,operating_profit,"sales=7520.0, exp=0.0, op=6601.0","Operating profit mismatch: sales - expenses = 7520.00, reported 6601.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2017,opm_percentage,"reported=919.0, calc=87.78","OPM mismatch: reported 919.0%, calculated 87.78%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2018,operating_profit,"sales=6912.0, exp=59.0, op=7174.0","Operating profit mismatch: sales - expenses = 6853.00, reported 7174.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2018,opm_percentage,"reported=-262.0, calc=103.79","OPM mismatch: reported -262.0%, calculated 103.79%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2019,operating_profit,"sales=11163.0, exp=70.0, op=9494.0","Operating profit mismatch: sales - expenses = 11093.00, reported 9494.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2019,opm_percentage,"reported=1669.0, calc=85.05","OPM mismatch: reported 1669.0%, calculated 85.05%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2020,operating_profit,"sales=11517.0, exp=0.0, op=9745.0","Operating profit mismatch: sales - expenses = 11517.00, reported 9745.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2020,opm_percentage,"reported=1772.0, calc=84.61","OPM mismatch: reported 1772.0%, calculated 84.61%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2021,operating_profit,"sales=12161.0, exp=0.0, op=10090.0","Operating profit mismatch: sales - expenses = 12161.00, reported 10090.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2021,opm_percentage,"reported=2072.0, calc=82.97","OPM mismatch: reported 2072.0%, calculated 82.97%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2022,operating_profit,"sales=16026.0, exp=0.0, op=15010.0","Operating profit mismatch: sales - expenses = 16026.00, reported 15010.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2022,opm_percentage,"reported=1016.0, calc=93.66","OPM mismatch: reported 1016.0%, calculated 93.66%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2023,operating_profit,"sales=17876.0, exp=0.0, op=16612.0","Operating profit mismatch: sales - expenses = 17876.00, reported 16612.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2023,opm_percentage,"reported=1264.0, calc=92.93","OPM mismatch: reported 1264.0%, calculated 92.93%"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2024,operating_profit,"sales=20487.0, exp=0.0, op=17910.0","Operating profit mismatch: sales - expenses = 20487.00, reported 17910.00"
+DQ-12,WARNING,profitandloss,ICICIGI,Mar 2024,opm_percentage,"reported=2577.0, calc=87.42","OPM mismatch: reported 2577.0%, calculated 87.42%"
+DQ-12,WARNING,profitandloss,ICICIGI,TTM,operating_profit,"sales=23301.0, exp=0.0, op=19938.0","Operating profit mismatch: sales - expenses = 23301.00, reported 19938.00"
+DQ-12,WARNING,profitandloss,ICICIGI,TTM,opm_percentage,"reported=3363.0, calc=85.57","OPM mismatch: reported 3363.0%, calculated 85.57%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2013,operating_profit,"sales=20025.0, exp=14.0, op=19280.0","Operating profit mismatch: sales - expenses = 20011.00, reported 19280.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2013,opm_percentage,"reported=745.0, calc=96.28","OPM mismatch: reported 745.0%, calculated 96.28%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2014,operating_profit,"sales=21888.0, exp=15.0, op=20384.0","Operating profit mismatch: sales - expenses = 21873.00, reported 20384.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2014,opm_percentage,"reported=1504.0, calc=93.13","OPM mismatch: reported 1504.0%, calculated 93.13%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2015,operating_profit,"sales=34453.0, exp=17.0, op=32798.0","Operating profit mismatch: sales - expenses = 34436.00, reported 32798.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2015,opm_percentage,"reported=1655.0, calc=95.20","OPM mismatch: reported 1655.0%, calculated 95.20%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2016,operating_profit,"sales=20849.0, exp=0.0, op=19008.0","Operating profit mismatch: sales - expenses = 20849.00, reported 19008.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2016,opm_percentage,"reported=1842.0, calc=91.17","OPM mismatch: reported 1842.0%, calculated 91.17%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2017,operating_profit,"sales=37816.0, exp=15.0, op=36010.0","Operating profit mismatch: sales - expenses = 37801.00, reported 36010.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2017,opm_percentage,"reported=1806.0, calc=95.22","OPM mismatch: reported 1806.0%, calculated 95.22%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2018,operating_profit,"sales=38832.0, exp=20.0, op=37062.0","Operating profit mismatch: sales - expenses = 38812.00, reported 37062.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2018,opm_percentage,"reported=1771.0, calc=95.44","OPM mismatch: reported 1771.0%, calculated 95.44%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2019,operating_profit,"sales=41463.0, exp=23.0, op=40922.0","Operating profit mismatch: sales - expenses = 41440.00, reported 40922.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2019,opm_percentage,"reported=541.0, calc=98.70","OPM mismatch: reported 541.0%, calculated 98.70%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2020,operating_profit,"sales=21025.0, exp=0.0, op=21344.0","Operating profit mismatch: sales - expenses = 21025.00, reported 21344.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2020,opm_percentage,"reported=-319.0, calc=101.52","OPM mismatch: reported -319.0%, calculated 101.52%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2021,operating_profit,"sales=83182.0, exp=0.0, op=83572.0","Operating profit mismatch: sales - expenses = 83182.00, reported 83572.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2021,opm_percentage,"reported=-390.0, calc=100.47","OPM mismatch: reported -390.0%, calculated 100.47%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2022,operating_profit,"sales=63564.0, exp=0.0, op=65728.0","Operating profit mismatch: sales - expenses = 63564.00, reported 65728.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2022,opm_percentage,"reported=-2163.0, calc=103.40","OPM mismatch: reported -2163.0%, calculated 103.40%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2023,operating_profit,"sales=50478.0, exp=0.0, op=52235.0","Operating profit mismatch: sales - expenses = 50478.00, reported 52235.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2023,opm_percentage,"reported=-1757.0, calc=103.48","OPM mismatch: reported -1757.0%, calculated 103.48%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2024,operating_profit,"sales=90307.0, exp=0.0, op=92136.0","Operating profit mismatch: sales - expenses = 90307.00, reported 92136.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,Mar 2024,opm_percentage,"reported=-1829.0, calc=102.03","OPM mismatch: reported -1829.0%, calculated 102.03%"
+DQ-12,WARNING,profitandloss,ICICIPRULI,TTM,operating_profit,"sales=77572.0, exp=0.0, op=77251.0","Operating profit mismatch: sales - expenses = 77572.00, reported 77251.00"
+DQ-12,WARNING,profitandloss,ICICIPRULI,TTM,opm_percentage,"reported=321.0, calc=99.59","OPM mismatch: reported 321.0%, calculated 99.59%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2013,operating_profit,"sales=6983.0, exp=4750.0, op=1947.0","Operating profit mismatch: sales - expenses = 2233.00, reported 1947.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2013,opm_percentage,"reported=286.0, calc=27.88","OPM mismatch: reported 286.0%, calculated 27.88%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2014,operating_profit,"sales=8254.0, exp=5363.0, op=2555.0","Operating profit mismatch: sales - expenses = 2891.00, reported 2555.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2014,opm_percentage,"reported=335.0, calc=30.95","OPM mismatch: reported 335.0%, calculated 30.95%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2015,operating_profit,"sales=9692.0, exp=6272.0, op=3133.0","Operating profit mismatch: sales - expenses = 3420.00, reported 3133.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2015,opm_percentage,"reported=288.0, calc=32.33","OPM mismatch: reported 288.0%, calculated 32.33%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2016,operating_profit,"sales=11872.0, exp=7355.0, op=4188.0","Operating profit mismatch: sales - expenses = 4517.00, reported 4188.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2016,opm_percentage,"reported=329.0, calc=35.28","OPM mismatch: reported 329.0%, calculated 35.28%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2017,operating_profit,"sales=14406.0, exp=8343.0, op=5684.0","Operating profit mismatch: sales - expenses = 6063.00, reported 5684.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2017,opm_percentage,"reported=379.0, calc=39.46","OPM mismatch: reported 379.0%, calculated 39.46%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2018,operating_profit,"sales=17281.0, exp=9783.0, op=6555.0","Operating profit mismatch: sales - expenses = 7498.00, reported 6555.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2018,opm_percentage,"reported=942.0, calc=37.93","OPM mismatch: reported 942.0%, calculated 37.93%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2019,operating_profit,"sales=22261.0, exp=13415.0, op=9283.0","Operating profit mismatch: sales - expenses = 8846.00, reported 9283.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2019,opm_percentage,"reported=-437.0, calc=41.70","OPM mismatch: reported -437.0%, calculated 41.70%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2020,operating_profit,"sales=28783.0, exp=16724.0, op=12611.0","Operating profit mismatch: sales - expenses = 12059.00, reported 12611.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2020,opm_percentage,"reported=-553.0, calc=43.81","OPM mismatch: reported -553.0%, calculated 43.81%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2021,operating_profit,"sales=29000.0, exp=15472.0, op=15997.0","Operating profit mismatch: sales - expenses = 13528.00, reported 15997.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2021,opm_percentage,"reported=-2469.0, calc=55.16","OPM mismatch: reported -2469.0%, calculated 55.16%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2022,operating_profit,"sales=30822.0, exp=15822.0, op=15840.0","Operating profit mismatch: sales - expenses = 15000.00, reported 15840.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2022,opm_percentage,"reported=-839.0, calc=51.39","OPM mismatch: reported -839.0%, calculated 51.39%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2023,operating_profit,"sales=36368.0, exp=18776.0, op=15525.0","Operating profit mismatch: sales - expenses = 17592.00, reported 15525.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2023,opm_percentage,"reported=2067.0, calc=42.69","OPM mismatch: reported 2067.0%, calculated 42.69%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2024,operating_profit,"sales=45748.0, exp=25132.0, op=17638.0","Operating profit mismatch: sales - expenses = 20616.00, reported 17638.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,Mar 2024,opm_percentage,"reported=2978.0, calc=38.55","OPM mismatch: reported 2978.0%, calculated 38.55%"
+DQ-12,WARNING,profitandloss,INDUSINDBK,TTM,operating_profit,"sales=49004.0, exp=27577.0, op=20104.0","Operating profit mismatch: sales - expenses = 21427.00, reported 20104.00"
+DQ-12,WARNING,profitandloss,INDUSINDBK,TTM,opm_percentage,"reported=1323.0, calc=41.03","OPM mismatch: reported 1323.0%, calculated 41.03%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2013,operating_profit,"sales=10838.0, exp=6024.0, op=6603.0","Operating profit mismatch: sales - expenses = 4814.00, reported 6603.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2013,opm_percentage,"reported=-1789.0, calc=60.92","OPM mismatch: reported -1789.0%, calculated 60.92%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2014,operating_profit,"sales=11986.0, exp=6312.0, op=7053.0","Operating profit mismatch: sales - expenses = 5674.00, reported 7053.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2014,opm_percentage,"reported=-1379.0, calc=58.84","OPM mismatch: reported -1379.0%, calculated 58.84%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2015,operating_profit,"sales=13319.0, exp=6966.0, op=9718.0","Operating profit mismatch: sales - expenses = 6353.00, reported 9718.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2015,opm_percentage,"reported=-3366.0, calc=72.96","OPM mismatch: reported -3366.0%, calculated 72.96%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2016,operating_profit,"sales=20402.0, exp=11123.0, op=11541.0","Operating profit mismatch: sales - expenses = 9279.00, reported 11541.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2016,opm_percentage,"reported=-2263.0, calc=56.57","OPM mismatch: reported -2263.0%, calculated 56.57%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2017,operating_profit,"sales=22324.0, exp=11458.0, op=14832.0","Operating profit mismatch: sales - expenses = 10866.00, reported 14832.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2017,opm_percentage,"reported=-3965.0, calc=66.44","OPM mismatch: reported -3965.0%, calculated 66.44%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2018,operating_profit,"sales=25131.0, exp=12467.0, op=16805.0","Operating profit mismatch: sales - expenses = 12664.00, reported 16805.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2018,opm_percentage,"reported=-4141.0, calc=66.87","OPM mismatch: reported -4141.0%, calculated 66.87%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2019,operating_profit,"sales=29831.0, exp=15187.0, op=19758.0","Operating profit mismatch: sales - expenses = 14644.00, reported 19758.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2019,opm_percentage,"reported=-5114.0, calc=66.23","OPM mismatch: reported -5114.0%, calculated 66.23%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2020,operating_profit,"sales=33474.0, exp=15901.0, op=22578.0","Operating profit mismatch: sales - expenses = 17573.00, reported 22578.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2020,opm_percentage,"reported=-5005.0, calc=67.45","OPM mismatch: reported -5005.0%, calculated 67.45%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2021,operating_profit,"sales=32820.0, exp=12967.0, op=29812.0","Operating profit mismatch: sales - expenses = 19853.00, reported 29812.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2021,opm_percentage,"reported=-9958.0, calc=90.83","OPM mismatch: reported -9958.0%, calculated 90.83%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2022,operating_profit,"sales=33741.0, exp=11554.0, op=30699.0","Operating profit mismatch: sales - expenses = 22187.00, reported 30699.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2022,opm_percentage,"reported=-8512.0, calc=90.98","OPM mismatch: reported -8512.0%, calculated 90.98%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2023,operating_profit,"sales=42151.0, exp=14411.0, op=33485.0","Operating profit mismatch: sales - expenses = 27740.00, reported 33485.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2023,opm_percentage,"reported=-5746.0, calc=79.44","OPM mismatch: reported -5746.0%, calculated 79.44%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2024,operating_profit,"sales=56237.0, exp=22567.0, op=47052.0","Operating profit mismatch: sales - expenses = 33670.00, reported 47052.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,Mar 2024,opm_percentage,"reported=-13382.0, calc=83.67","OPM mismatch: reported -13382.0%, calculated 83.67%"
+DQ-12,WARNING,profitandloss,KOTAKBANK,TTM,operating_profit,"sales=64053.0, exp=27327.0, op=50872.0","Operating profit mismatch: sales - expenses = 36726.00, reported 50872.00"
+DQ-12,WARNING,profitandloss,KOTAKBANK,TTM,opm_percentage,"reported=-14146.0, calc=79.42","OPM mismatch: reported -14146.0%, calculated 79.42%"
+DQ-12,WARNING,profitandloss,PFC,Mar 2013,operating_profit,"sales=17314.0, exp=331.0, op=5987.0","Operating profit mismatch: sales - expenses = 16983.00, reported 5987.00"
+DQ-12,WARNING,profitandloss,PFC,Mar 2014,operating_profit,"sales=21407.0, exp=748.0, op=7607.0","Operating profit mismatch: sales - expenses = 20659.00, reported 7607.00"
+DQ-12,WARNING,profitandloss,PFC,Mar 2015,operating_profit,"sales=24988.0, exp=1103.0, op=8429.0","Operating profit mismatch: sales - expenses = 23885.00, reported 8429.00"
+DQ-12,WARNING,profitandloss,PFC,Mar 2016,operating_profit,"sales=27861.0, exp=2042.0, op=9162.0","Operating profit mismatch: sales - expenses = 25819.00, reported 9162.00"
+DQ-12,WARNING,profitandloss,PFC,Mar 2017,operating_profit,"sales=27581.0, exp=5538.0, op=5275.0","Operating profit mismatch: sales - expenses = 22043.00, reported 5275.00"
+DQ-12,WARNING,profitandloss,PFC,Mar 2018,operating_profit,"sales=48624.0, exp=6583.0, op=11752.0","Operating profit mismatch: sales - expenses = 42041.00, reported 11752.00"
+DQ-12,WARNING,profitandloss,PFC,Mar 2019,operating_profit,"sales=54106.0, exp=1696.0, op=17783.0","Operating profit mismatch: sales - expenses = 52410.00, reported 17783.00"
+DQ-12,WARNING,profitandloss,PFC,Mar 2020,operating_profit,"sales=62189.0, exp=7332.0, op=14012.0","Operating profit mismatch: sales - expenses = 54857.00, reported 14012.00"
+DQ-12,WARNING,profitandloss,PFC,Mar 2021,operating_profit,"sales=71656.0, exp=7102.0, op=19871.0","Operating profit mismatch: sales - expenses = 64554.00, reported 19871.00"
+DQ-12,WARNING,profitandloss,PFC,Mar 2022,operating_profit,"sales=76262.0, exp=8215.0, op=23338.0","Operating profit mismatch: sales - expenses = 68047.00, reported 23338.00"
+DQ-12,WARNING,profitandloss,PFC,Mar 2023,operating_profit,"sales=77684.0, exp=4167.0, op=26501.0","Operating profit mismatch: sales - expenses = 73517.00, reported 26501.00"
+DQ-12,WARNING,profitandloss,PFC,Mar 2024,operating_profit,"sales=91508.0, exp=-27.0, op=33573.0","Operating profit mismatch: sales - expenses = 91535.00, reported 33573.00"
+DQ-12,WARNING,profitandloss,PFC,TTM,operating_profit,"sales=98152.0, exp=882.0, op=35764.0","Operating profit mismatch: sales - expenses = 97270.00, reported 35764.00"
+DQ-12,WARNING,profitandloss,SBILIFE,Mar 2015,operating_profit,"sales=23399.0, exp=22505.0, op=794.0","Operating profit mismatch: sales - expenses = 894.00, reported 794.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2013,operating_profit,"sales=167976.0, exp=66283.0, op=-5124.0","Operating profit mismatch: sales - expenses = 101693.00, reported -5124.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2014,operating_profit,"sales=189062.0, exp=82198.0, op=-14614.0","Operating profit mismatch: sales - expenses = 106864.00, reported -14614.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2015,operating_profit,"sales=207974.0, exp=96675.0, op=-21879.0","Operating profit mismatch: sales - expenses = 111299.00, reported -21879.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2016,operating_profit,"sales=220633.0, exp=109985.0, op=-32399.0","Operating profit mismatch: sales - expenses = 110648.00, reported -32399.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2017,operating_profit,"sales=230447.0, exp=145666.0, op=-64334.0","Operating profit mismatch: sales - expenses = 84781.00, reported -64334.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2018,operating_profit,"sales=228970.0, exp=169065.0, op=-86697.0","Operating profit mismatch: sales - expenses = 59905.00, reported -86697.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2019,operating_profit,"sales=253322.0, exp=166104.0, op=-68649.0","Operating profit mismatch: sales - expenses = 87218.00, reported -68649.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2020,operating_profit,"sales=269852.0, exp=172909.0, op=-64181.0","Operating profit mismatch: sales - expenses = 96943.00, reported -64181.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2021,operating_profit,"sales=278115.0, exp=192821.0, op=-70715.0","Operating profit mismatch: sales - expenses = 85294.00, reported -70715.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2022,operating_profit,"sales=289973.0, exp=197349.0, op=-63570.0","Operating profit mismatch: sales - expenses = 92624.00, reported -63570.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2023,operating_profit,"sales=350845.0, exp=204303.0, op=-43439.0","Operating profit mismatch: sales - expenses = 146542.00, reported -43439.00"
+DQ-12,WARNING,profitandloss,SBIN,Mar 2024,operating_profit,"sales=439189.0, exp=239750.0, op=-60297.0","Operating profit mismatch: sales - expenses = 199439.00, reported -60297.00"
+DQ-12,WARNING,profitandloss,SBIN,TTM,operating_profit,"sales=469625.0, exp=244759.0, op=-59190.0","Operating profit mismatch: sales - expenses = 224866.00, reported -59190.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2013,operating_profit,"sales=7009.0, exp=1738.0, op=2179.0","Operating profit mismatch: sales - expenses = 5271.00, reported 2179.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2014,operating_profit,"sales=8476.0, exp=2244.0, op=1999.0","Operating profit mismatch: sales - expenses = 6232.00, reported 1999.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2015,operating_profit,"sales=9177.0, exp=2781.0, op=1691.0","Operating profit mismatch: sales - expenses = 6396.00, reported 1691.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2016,operating_profit,"sales=10359.0, exp=3447.0, op=1824.0","Operating profit mismatch: sales - expenses = 6912.00, reported 1824.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2017,operating_profit,"sales=10903.0, exp=3712.0, op=1972.0","Operating profit mismatch: sales - expenses = 7191.00, reported 1972.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2018,operating_profit,"sales=13502.0, exp=3288.0, op=3805.0","Operating profit mismatch: sales - expenses = 10214.00, reported 3805.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2019,operating_profit,"sales=15536.0, exp=4171.0, op=3801.0","Operating profit mismatch: sales - expenses = 11365.00, reported 3801.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2020,operating_profit,"sales=16561.0, exp=4683.0, op=3565.0","Operating profit mismatch: sales - expenses = 11878.00, reported 3565.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2021,operating_profit,"sales=17422.0, exp=4932.0, op=3402.0","Operating profit mismatch: sales - expenses = 12490.00, reported 3402.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2022,operating_profit,"sales=19255.0, exp=5816.0, op=3666.0","Operating profit mismatch: sales - expenses = 13439.00, reported 3666.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2023,operating_profit,"sales=30492.0, exp=8706.0, op=8799.0","Operating profit mismatch: sales - expenses = 21786.00, reported 8799.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,Mar 2024,operating_profit,"sales=36388.0, exp=10278.0, op=10523.0","Operating profit mismatch: sales - expenses = 26110.00, reported 10523.00"
+DQ-12,WARNING,profitandloss,SHRIRAMFIN,TTM,operating_profit,"sales=39864.0, exp=11228.0, op=11416.0","Operating profit mismatch: sales - expenses = 28636.00, reported 11416.00"
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,profitandloss,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2013,operating_profit,"sales=9203.0, exp=73.0, op=8348.0","Operating profit mismatch: sales - expenses = 9130.00, reported 8348.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2013,opm_percentage,"reported=855.0, calc=90.71","OPM mismatch: reported 855.0%, calculated 90.71%"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2014,operating_profit,"sales=11117.0, exp=123.0, op=10684.0","Operating profit mismatch: sales - expenses = 10994.00, reported 10684.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2014,opm_percentage,"reported=433.0, calc=96.11","OPM mismatch: reported 433.0%, calculated 96.11%"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2015,operating_profit,"sales=13925.0, exp=150.0, op=12022.0","Operating profit mismatch: sales - expenses = 13775.00, reported 12022.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2015,opm_percentage,"reported=1904.0, calc=86.33","OPM mismatch: reported 1904.0%, calculated 86.33%"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2016,operating_profit,"sales=16140.0, exp=350.0, op=12976.0","Operating profit mismatch: sales - expenses = 15790.00, reported 12976.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2016,opm_percentage,"reported=3164.0, calc=80.40","OPM mismatch: reported 3164.0%, calculated 80.40%"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2017,operating_profit,"sales=18580.0, exp=406.0, op=16362.0","Operating profit mismatch: sales - expenses = 18174.00, reported 16362.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2017,opm_percentage,"reported=2219.0, calc=88.06","OPM mismatch: reported 2219.0%, calculated 88.06%"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2018,operating_profit,"sales=23021.0, exp=413.0, op=19991.0","Operating profit mismatch: sales - expenses = 22608.00, reported 19991.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2018,opm_percentage,"reported=3030.0, calc=86.84","OPM mismatch: reported 3030.0%, calculated 86.84%"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2019,operating_profit,"sales=28497.0, exp=563.0, op=28648.0","Operating profit mismatch: sales - expenses = 27934.00, reported 28648.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2019,opm_percentage,"reported=-151.0, calc=100.53","OPM mismatch: reported -151.0%, calculated 100.53%"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2020,operating_profit,"sales=35756.0, exp=1902.0, op=31687.0","Operating profit mismatch: sales - expenses = 33854.00, reported 31687.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2020,opm_percentage,"reported=4069.0, calc=88.62","OPM mismatch: reported 4069.0%, calculated 88.62%"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2021,operating_profit,"sales=14641.0, exp=2170.0, op=14638.0","Operating profit mismatch: sales - expenses = 12471.00, reported 14638.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2021,opm_percentage,"reported=2.0, calc=99.98","OPM mismatch: reported 2.0%, calculated 99.98%"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2022,operating_profit,"sales=25931.0, exp=2386.0, op=25373.0","Operating profit mismatch: sales - expenses = 23545.00, reported 25373.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2022,opm_percentage,"reported=558.0, calc=97.85","OPM mismatch: reported 558.0%, calculated 97.85%"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2023,operating_profit,"sales=54446.0, exp=3168.0, op=47926.0","Operating profit mismatch: sales - expenses = 51278.00, reported 47926.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2023,opm_percentage,"reported=6521.0, calc=88.02","OPM mismatch: reported 6521.0%, calculated 88.02%"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2024,operating_profit,"sales=68904.0, exp=4805.0, op=52573.0","Operating profit mismatch: sales - expenses = 64099.00, reported 52573.00"
+DQ-12,WARNING,profitandloss,INDIGO,Mar 2024,opm_percentage,"reported=16331.0, calc=76.30","OPM mismatch: reported 16331.0%, calculated 76.30%"
+DQ-12,WARNING,profitandloss,INDIGO,TTM,operating_profit,"sales=76476.0, exp=0.0, op=60568.0","Operating profit mismatch: sales - expenses = 76476.00, reported 60568.00"
+DQ-12,WARNING,profitandloss,INDIGO,TTM,opm_percentage,"reported=15908.0, calc=79.20","OPM mismatch: reported 15908.0%, calculated 79.20%"
+DQ-06,WARNING,cashflow,ABB,Mar 2014,year,Mar 2014,Duplicate record detected for company 'ABB' and year 'Mar 2014'
+DQ-06,WARNING,cashflow,ABB,Mar 2015,year,Mar 2015,Duplicate record detected for company 'ABB' and year 'Mar 2015'
+DQ-06,WARNING,cashflow,ABB,Mar 2016,year,Mar 2016,Duplicate record detected for company 'ABB' and year 'Mar 2016'
+DQ-06,WARNING,cashflow,ABB,Mar 2017,year,Mar 2017,Duplicate record detected for company 'ABB' and year 'Mar 2017'
+DQ-06,WARNING,cashflow,ABB,Mar 2018,year,Mar 2018,Duplicate record detected for company 'ABB' and year 'Mar 2018'
+DQ-06,WARNING,cashflow,ABB,Mar 2019,year,Mar 2019,Duplicate record detected for company 'ABB' and year 'Mar 2019'
+DQ-06,WARNING,cashflow,ABB,Mar 2020,year,Mar 2020,Duplicate record detected for company 'ABB' and year 'Mar 2020'
+DQ-06,WARNING,cashflow,ABB,Mar 2021,year,Mar 2021,Duplicate record detected for company 'ABB' and year 'Mar 2021'
+DQ-06,WARNING,cashflow,ABB,Mar 2022,year,Mar 2022,Duplicate record detected for company 'ABB' and year 'Mar 2022'
+DQ-06,WARNING,cashflow,ABB,Mar 2023,year,Mar 2023,Duplicate record detected for company 'ABB' and year 'Mar 2023'
+DQ-06,WARNING,cashflow,ABB,Mar 2024,year,Mar 2024,Duplicate record detected for company 'ABB' and year 'Mar 2024'
+DQ-03,CRITICAL,cashflow,AGTL,,company_id,AGTL,Foreign key violation: company_id 'AGTL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,AGTL,,company_id,AGTL,Foreign key violation: company_id 'AGTL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,AGTL,,company_id,AGTL,Foreign key violation: company_id 'AGTL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,AGTL,,company_id,AGTL,Foreign key violation: company_id 'AGTL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,AGTL,,company_id,AGTL,Foreign key violation: company_id 'AGTL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,AGTL,,company_id,AGTL,Foreign key violation: company_id 'AGTL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,AGTL,,company_id,AGTL,Foreign key violation: company_id 'AGTL' does not exist in companies table
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2013,year,Mar 2013,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2013'
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2014,year,Mar 2014,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2014'
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2015,year,Mar 2015,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2015'
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2016,year,Mar 2016,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2016'
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2017,year,Mar 2017,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2017'
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2018,year,Mar 2018,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2018'
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2019,year,Mar 2019,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2019'
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2020,year,Mar 2020,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2020'
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2021,year,Mar 2021,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2021'
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2022,year,Mar 2022,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2022'
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2023,year,Mar 2023,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2023'
+DQ-06,WARNING,cashflow,BAJAJ-AUTO,Mar 2024,year,Mar 2024,Duplicate record detected for company 'BAJAJ-AUTO' and year 'Mar 2024'
+DQ-06,WARNING,cashflow,TCS,Mar 2013,year,Mar 2013,Duplicate record detected for company 'TCS' and year 'Mar 2013'
+DQ-06,WARNING,cashflow,TCS,Mar 2014,year,Mar 2014,Duplicate record detected for company 'TCS' and year 'Mar 2014'
+DQ-06,WARNING,cashflow,TCS,Mar 2015,year,Mar 2015,Duplicate record detected for company 'TCS' and year 'Mar 2015'
+DQ-06,WARNING,cashflow,TCS,Mar 2016,year,Mar 2016,Duplicate record detected for company 'TCS' and year 'Mar 2016'
+DQ-06,WARNING,cashflow,TCS,Mar 2017,year,Mar 2017,Duplicate record detected for company 'TCS' and year 'Mar 2017'
+DQ-06,WARNING,cashflow,TCS,Mar 2018,year,Mar 2018,Duplicate record detected for company 'TCS' and year 'Mar 2018'
+DQ-06,WARNING,cashflow,TCS,Mar 2019,year,Mar 2019,Duplicate record detected for company 'TCS' and year 'Mar 2019'
+DQ-06,WARNING,cashflow,TCS,Mar 2020,year,Mar 2020,Duplicate record detected for company 'TCS' and year 'Mar 2020'
+DQ-06,WARNING,cashflow,TCS,Mar 2021,year,Mar 2021,Duplicate record detected for company 'TCS' and year 'Mar 2021'
+DQ-06,WARNING,cashflow,TCS,Mar 2022,year,Mar 2022,Duplicate record detected for company 'TCS' and year 'Mar 2022'
+DQ-06,WARNING,cashflow,TCS,Mar 2023,year,Mar 2023,Duplicate record detected for company 'TCS' and year 'Mar 2023'
+DQ-06,WARNING,cashflow,TCS,Mar 2024,year,Mar 2024,Duplicate record detected for company 'TCS' and year 'Mar 2024'
+DQ-14,WARNING,cashflow,TVSMOTOR,Mar 2022,net_cash_flow,"reported=532.0, calc=-128.00","Net cash flow mismatch: operating + investing + financing = -128.00, reported 532.0"
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,cashflow,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-16,INFO,analysis,HDFCBANK,,stock_price_cagr,10 Years:     15%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,HDFCBANK,,roe,10 Years:     17%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,SBILIFE,,compounded_sales_growth,5 Years:       24%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,SBILIFE,,compounded_profit_growth,5 Years:            6%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,SBILIFE,,stock_price_cagr,     5 Years:       8%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,SBILIFE,,roe,5 Years          14%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,SBILIFE,,compounded_sales_growth,3 Years:       17%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,SBILIFE,,compounded_profit_growth,3 Years:            9%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,SBILIFE,,stock_price_cagr,     3 Years:       7%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,SBILIFE,,roe,3 Years:         13%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,SBILIFE,,compounded_sales_growth,TTM:            43%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,SBILIFE,,compounded_profit_growth,TTM:                 18%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,SBILIFE,,stock_price_cagr,     1 Year:         -2%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,SBILIFE,,roe,Last Year:      12%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,TCS,,compounded_sales_growth,10 Years:     11%             ,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,TCS,,compounded_profit_growth,10 Years:          9%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,TCS,,stock_price_cagr,    10 Years:      14%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,TCS,,roe,10 Years:       40%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,TCS,,compounded_sales_growth,5 Years:       10%             ,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,TCS,,compounded_profit_growth,5 Years:            8%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,TCS,,stock_price_cagr,      5 Years:      16%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,TCS,,roe,5 Years:          44%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,TCS,,compounded_sales_growth,3 Years:       14%             ,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,TCS,,compounded_profit_growth,3 Years:            12%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,TCS,,stock_price_cagr,      3 Years:      8%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,TCS,,roe,3 Years:          47%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,TCS,,compounded_sales_growth,TTM:            5%             ,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,TCS,,compounded_profit_growth,TTM:                 8%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,TCS,,stock_price_cagr,      1 Year:       16%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,TCS,,roe,Last Year:       52%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,WIPRO,,compounded_sales_growth,10 Years:     8%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,WIPRO,,compounded_profit_growth,10 Years:          3%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,WIPRO,,stock_price_cagr,    10 Years:     12%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,WIPRO,,roe,10 Years:        18%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-03,CRITICAL,analysis,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-16,INFO,analysis,WIPRO,,compounded_sales_growth,5 Years:       9%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,WIPRO,,compounded_profit_growth,5 Years:            4%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,WIPRO,,stock_price_cagr,      5 Years:     20%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,WIPRO,,roe,5 Years:          17%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-03,CRITICAL,analysis,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-16,INFO,analysis,WIPRO,,compounded_sales_growth,3 Years:      13%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,WIPRO,,compounded_profit_growth,3 Years:            0%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,WIPRO,,stock_price_cagr,      3 Years:      -1%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,WIPRO,,roe,3 Years:          17%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-03,CRITICAL,analysis,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-16,INFO,analysis,HDFCBANK,,compounded_sales_growth,5 Years:       22%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,HDFCBANK,,compounded_profit_growth,5 Years:           23%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,HDFCBANK,,stock_price_cagr,      5 Years:       8%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,HDFCBANK,,roe,5 Years:       17%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,WIPRO,,compounded_sales_growth,TTM:           -3%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,WIPRO,,compounded_profit_growth,TTM:                 1%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,WIPRO,,stock_price_cagr,      1 Year:       39%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,WIPRO,,roe,Last Year:       14%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-03,CRITICAL,analysis,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-16,INFO,analysis,HDFCBANK,,compounded_sales_growth,3 Years:       30%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,HDFCBANK,,compounded_profit_growth,3 Years:           26%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,HDFCBANK,,stock_price_cagr,      3 Years:       8%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,HDFCBANK,,roe,3 Years:       17%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,HDFCBANK,,compounded_sales_growth,TTM:            47%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,HDFCBANK,,compounded_profit_growth,TTM:                27%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,HDFCBANK,,stock_price_cagr,      1 Year:        13%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,HDFCBANK,,roe,Last Year:    17%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,INFY,,compounded_sales_growth,10 Years:     12%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,INFY,,compounded_profit_growth,10 Years:         9%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,INFY,,stock_price_cagr,     10 Years:     15%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,INFY,,roe,10 Years:      27%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,INFY,,compounded_sales_growth,5 Years:       13%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,INFY,,compounded_profit_growth,5 Years:           11%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,INFY,,stock_price_cagr,       5 Years:     22%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,INFY,,roe,5 Years:        29%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,INFY,,compounded_sales_growth,3 Years:       5%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,INFY,,compounded_profit_growth,3 Years:           10%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,INFY,,stock_price_cagr,       3 Years:     4%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,INFY,,roe,3 Years:        31%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,INFY,,compounded_sales_growth,TTM:            3%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,INFY,,compounded_profit_growth,TTM:                 8%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,INFY,,stock_price_cagr,       1 Year:       27%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,INFY,,roe,Last Year:     32%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-16,INFO,analysis,SBILIFE,,compounded_sales_growth,10 Years:     23%,Untrimmed or irregular whitespace detected in 'compounded_sales_growth'
+DQ-16,INFO,analysis,SBILIFE,,compounded_profit_growth,10 Years:          9%,Untrimmed or irregular whitespace detected in 'compounded_profit_growth'
+DQ-16,INFO,analysis,SBILIFE,,stock_price_cagr,    10 Years:      9%,Untrimmed or irregular whitespace detected in 'stock_price_cagr'
+DQ-16,INFO,analysis,SBILIFE,,roe,10 Years:      16%,Untrimmed or irregular whitespace detected in 'roe'
+DQ-03,CRITICAL,prosandcons,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,prosandcons,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,ULTRACEMCO,,company_id,ULTRACEMCO,Foreign key violation: company_id 'ULTRACEMCO' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNIONBANK,,company_id,UNIONBANK,Foreign key violation: company_id 'UNIONBANK' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,UNITDSPR,,company_id,UNITDSPR,Foreign key violation: company_id 'UNITDSPR' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VBL,,company_id,VBL,Foreign key violation: company_id 'VBL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,VEDL,,company_id,VEDL,Foreign key violation: company_id 'VEDL' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,WIPRO,,company_id,WIPRO,Foreign key violation: company_id 'WIPRO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZOMATO,,company_id,ZOMATO,Foreign key violation: company_id 'ZOMATO' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-03,CRITICAL,documents,ZYDUSLIFE,,company_id,ZYDUSLIFE,Foreign key violation: company_id 'ZYDUSLIFE' does not exist in companies table
+DQ-15,INFO,profitandloss,JIOFIN,,year,2 years,Company 'JIOFIN' has fewer than 5 financial years of data (2 years)
+DQ-15,INFO,balancesheet,JIOFIN,,year,3 years,Company 'JIOFIN' has fewer than 5 financial years of data (3 years)
+DQ-15,INFO,cashflow,JIOFIN,,year,2 years,Company 'JIOFIN' has fewer than 5 financial years of data (2 years)

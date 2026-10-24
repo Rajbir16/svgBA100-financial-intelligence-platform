@@ -1,0 +1,10 @@
+company_id,broad_sector,metric,value,sector_mean,sector_std,z_score
+BAJAJHLDNG,Financials,net_profit_margin_pct,432.7262,38.238,85.7788,4.5989
+PNB,Financials,return_on_capital_employed_pct,20.2402,2.2605,4.4625,4.029
+BAJAJHLDNG,Financials,interest_coverage,3764.5,334.2283,912.079,3.7609
+JIOFIN,Financials,cfo_quality_5yr,32.9339,2.3809,8.3691,3.6507
+INDIGO,Consumer Discretionary,return_on_equity_pct,892.5683,86.7241,223.6615,3.603
+INDIGO,Consumer Discretionary,cfo_quality_5yr,-14.3447,0.1781,4.1393,-3.5085
+ADANIGREEN,Energy,debt_to_equity,6.3758,1.3297,1.4799,3.4097
+PNB,Financials,return_on_equity_pct,61.3206,19.0071,12.7221,3.326
+ADANIGREEN,Energy,fcf_conversion_pct,-182.3859,18.2543,65.0036,-3.0866
